@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<script src="./image-slot.js"></script>
+<style>
+  body { margin: 0; background: #E7E9E8; font-family: "IBM Plex Sans", system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  a { color: #14213D; text-decoration: none; }
+  a:hover { color: #D9542B; }
+  @keyframes postaPulse { 0%,100% { opacity: .25 } 50% { opacity: 1 } }
+  @keyframes postaSweep { 0% { transform: translateX(-100%) } 100% { transform: translateX(400%) } }
+</style>
+</helmet>
+
+<div style="display:flex;flex-direction:column;gap:14px;padding:18px 18px 80px;max-width:1320px;margin:0 auto">
+
+  <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:14px;padding:6px 2px 0">
+    <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:22px;letter-spacing:-0.03em;color:#14213D">posta<span style="color:#D9542B">.</span></span>
+    <span style="font-size:12px;color:#6B7280;letter-spacing:.04em;text-transform:uppercase">Metabuscador de alojamientos · UI v1 · 6 pantallas</span>
+  </div>
+
+  <!-- 1 · HOME -->
+  <div style="display:flex;flex-direction:column;gap:8px">
+    <div style="display:flex;align-items:center;gap:10px">
+      <span style="display:inline-flex;align-items:center;justify-content:center;min-width:26px;height:26px;border-radius:999px;background:#14213D;color:#fff;font-size:12px;font-weight:600">01</span>
+      <span style="font-size:13px;font-weight:600;color:#14213D">Home — el chat es la entrada</span>
+    </div>
+    <div data-screen-label="01 Home" style="background:#F2F4F3;border:1px solid #DADEDC;border-radius:18px;overflow:hidden">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 28px;border-bottom:1px solid #E2E6E4">
+        <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:24px;letter-spacing:-0.03em;color:#14213D">posta<span style="color:#D9542B">.</span></span>
+        <div style="display:flex;align-items:center;gap:22px;font-size:14px;color:#4B5563">
+          <a href="#1a">Cómo funciona</a>
+          <a href="#1a">Mis búsquedas</a>
+          <a href="#1a" style="padding:9px 18px;border:1px solid #14213D;border-radius:999px;color:#14213D;font-weight:500">Ingresar</a>
+        </div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:40px;padding:56px 28px 44px;align-items:center">
+        <div style="display:flex;flex-direction:column;gap:22px;min-width:0">
+          <h1 style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:clamp(34px,4.4vw,58px);line-height:1.02;letter-spacing:-0.035em;color:#14213D;text-wrap:pretty">Contanos a dónde vas.<br />Buscamos en todos lados.</h1>
+          <p style="margin:0;font-size:17px;line-height:1.55;color:#4B5563;max-width:52ch;text-wrap:pretty">Casas, apartamentos, hoteles, hostels, posadas. Te hacemos unas preguntas, revisamos todas las fuentes que existen y volvemos con cinco opciones que valen la pena.</p>
+
+          <div style="display:flex;flex-direction:column;gap:12px;background:#fff;border:1px solid #DADEDC;border-radius:16px;padding:16px;box-shadow:0 12px 30px rgba(20,33,61,.07)">
+            <div style="font-size:16px;color:#9CA3AF">Ej: "Somos 4, vamos a Punta del Este del 8 al 15 de enero, cerca del mar"</div>
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+              <div style="display:flex;flex-wrap:wrap;gap:8px">
+                <span style="padding:7px 13px;border:1px solid #DADEDC;border-radius:999px;font-size:13px;color:#4B5563">Fin de semana largo</span>
+                <span style="padding:7px 13px;border:1px solid #DADEDC;border-radius:999px;font-size:13px;color:#4B5563">Con niños</span>
+                <span style="padding:7px 13px;border:1px solid #DADEDC;border-radius:999px;font-size:13px;color:#4B5563">Sorprendeme</span>
+              </div>
+              <button style="border:0;background:#D9542B;color:#fff;font-family:'IBM Plex Sans',sans-serif;font-size:15px;font-weight:600;padding:12px 22px;border-radius:999px;cursor:pointer" style-hover="background:#C04720">Empezar</button>
+            </div>
+          </div>
+
+          <div style="display:flex;flex-direction:column;gap:10px">
+            <span style="font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:#5B6472">Miramos en</span>
+            <div style="display:flex;flex-wrap:wrap;gap:8px 18px;font-size:14px;color:#4B5563">
+              <span>Booking</span><span style="color:#D5D9D7">/</span>
+              <span>Airbnb</span><span style="color:#D5D9D7">/</span>
+              <span>Hostelworld</span><span style="color:#D5D9D7">/</span>
+              <span>Expedia</span><span style="color:#D5D9D7">/</span>
+              <span>hoteles directo</span><span style="color:#D5D9D7">/</span>
+              <span>inmobiliarias locales</span><span style="color:#D5D9D7">/</span>
+              <span>+ 40 fuentes</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="display:flex;flex-direction:column;gap:14px;min-width:0">
+          <div style="position:relative;border-radius:16px;overflow:hidden;aspect-ratio:4/5;border:1px solid #DADEDC">
+            <image-slot id="posta-hero" shape="rect" placeholder="Foto de destino — costa / casa de verano"></image-slot>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:10px;background:#14213D;border-radius:16px;padding:18px 20px;color:#fff">
+            <span style="font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:rgba(255,255,255,.78)">Cómo funciona</span>
+            <div style="display:flex;flex-direction:column;gap:9px;font-size:15px;line-height:1.4">
+              <span><span style="color:#F0A183;font-weight:600">1.</span> Contás el viaje en una frase.</span>
+              <span><span style="color:#F0A183;font-weight:600">2.</span> Seis preguntas, treinta segundos.</span>
+              <span><span style="color:#F0A183;font-weight:600">3.</span> Volvemos con el top 5 y por qué.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2 · ENTREVISTA -->
+  <div style="display:flex;flex-direction:column;gap:8px;margin-top:26px">
+    <div style="display:flex;align-items:center;gap:10px">
+      <span style="display:inline-flex;align-items:center;justify-content:center;min-width:26px;height:26px;border-radius:999px;background:#14213D;color:#fff;font-size:12px;font-weight:600">02</span>
+      <span style="font-size:13px;font-weight:600;color:#14213D">Entrevista — chat con respuestas rápidas</span>
+    </div>
+    <div data-screen-label="02 Entrevista" style="background:#F2F4F3;border:1px solid #DADEDC;border-radius:18px;overflow:hidden">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 24px;border-bottom:1px solid #E2E6E4">
+        <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:19px;letter-spacing:-0.03em;color:#14213D">posta<span style="color:#D9542B">.</span></span>
+        <div style="display:flex;align-items:center;gap:12px">
+          <span style="font-size:13px;color:#6B7280">Pregunta 4 de 6</span>
+          <div style="width:120px;height:5px;border-radius:999px;background:#E2E6E4;overflow:hidden">
+            <div style="width:66%;height:100%;background:#D9542B"></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:0">
+        <div style="display:flex;flex-direction:column;gap:20px;padding:28px 28px 22px;min-width:0">
+          <div style="display:flex;flex-direction:column;gap:18px">
+            <div style="align-self:flex-end;max-width:70%;background:#14213D;color:#fff;padding:13px 17px;border-radius:16px 16px 4px 16px;font-size:15px;line-height:1.5">Somos 4, vamos a Punta del Este del 8 al 15 de enero, cerca del mar</div>
+
+            <div style="display:flex;gap:11px;max-width:78%">
+              <span style="flex:0 0 28px;height:28px;border-radius:999px;background:#D9542B;color:#fff;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:13px;display:flex;align-items:center;justify-content:center;margin-top:2px">p</span>
+              <div style="display:flex;flex-direction:column;gap:8px">
+                <div style="background:#fff;border:1px solid #E2E6E4;padding:13px 17px;border-radius:16px 16px 16px 4px;font-size:15px;line-height:1.5;color:#14213D">Buenísimo, enero en Punta se llena rápido así que mejor arrancar. ¿Los 4 son adultos o viajan chicos?</div>
+                <div style="display:flex;flex-wrap:wrap;gap:7px">
+                  <span style="padding:8px 14px;border:1px solid #DADEDC;background:#fff;border-radius:999px;font-size:13px;color:#4B5563">4 adultos</span>
+                  <span style="padding:8px 14px;border:1px solid #14213D;background:#14213D;color:#fff;border-radius:999px;font-size:13px">2 adultos + 2 chicos</span>
+                </div>
+              </div>
+            </div>
+
+            <div style="align-self:flex-end;max-width:70%;background:#14213D;color:#fff;padding:13px 17px;border-radius:16px 16px 4px 16px;font-size:15px;line-height:1.5">2 adultos + 2 chicos (6 y 9)</div>
+
+            <div style="display:flex;gap:11px;max-width:78%">
+              <span style="flex:0 0 28px;height:28px;border-radius:999px;background:#D9542B;color:#fff;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:13px;display:flex;align-items:center;justify-content:center;margin-top:2px">p</span>
+              <div style="display:flex;flex-direction:column;gap:10px">
+                <div style="background:#fff;border:1px solid #E2E6E4;padding:13px 17px;border-radius:16px 16px 16px 4px;font-size:15px;line-height:1.5;color:#14213D">¿Cuánto pensás gastar por noche, todo incluido? Si no tenés idea, te doy rangos de referencia para esas fechas.</div>
+                <div style="display:flex;flex-wrap:wrap;gap:7px">
+                  <span style="padding:8px 14px;border:1px solid #DADEDC;background:#fff;border-radius:999px;font-size:13px;color:#4B5563">Hasta US$ 120</span>
+                  <span style="padding:8px 14px;border:1px solid #DADEDC;background:#fff;border-radius:999px;font-size:13px;color:#4B5563">US$ 120–220</span>
+                  <span style="padding:8px 14px;border:1px solid #DADEDC;background:#fff;border-radius:999px;font-size:13px;color:#4B5563">US$ 220–400</span>
+                  <span style="padding:8px 14px;border:1px solid #DADEDC;background:#fff;border-radius:999px;font-size:13px;color:#4B5563">Más</span>
+                  <span style="padding:8px 14px;border:1px dashed #C7CCC9;border-radius:999px;font-size:13px;color:#6B7280">Mostrame rangos</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="display:flex;align-items:center;gap:12px;background:#fff;border:1px solid #DADEDC;border-radius:14px;padding:12px 14px;margin-top:4px">
+            <span style="flex:1;font-size:15px;color:#9CA3AF">Escribí tu respuesta…</span>
+            <span style="font-size:13px;color:#6B7280;border-left:1px solid #E2E6E4;padding-left:12px">Enter</span>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+            <span style="font-size:13px;color:#6B7280">Faltan 2 preguntas para arrancar la búsqueda</span>
+            <button style="border:0;background:#14213D;color:#fff;font-family:'IBM Plex Sans',sans-serif;font-size:14px;font-weight:600;padding:11px 20px;border-radius:999px;cursor:pointer" style-hover="background:#0D1730">Listo, buscá igual</button>
+          </div>
+        </div>
+
+        <div style="display:flex;flex-direction:column;gap:14px;padding:28px 24px;border-left:1px solid #E2E6E4;background:#fff;min-width:0">
+          <span style="font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:#5B6472">Lo que sabemos</span>
+          <div style="display:flex;flex-direction:column;gap:12px">
+            <div style="display:flex;flex-direction:column;gap:2px"><span style="font-size:12px;color:#5B6472">Destino</span><span style="font-size:15px;color:#14213D">Punta del Este, UY</span></div>
+            <div style="display:flex;flex-direction:column;gap:2px"><span style="font-size:12px;color:#5B6472">Fechas</span><span style="font-size:15px;color:#14213D">8 → 15 ene · 7 noches</span></div>
+            <div style="display:flex;flex-direction:column;gap:2px"><span style="font-size:12px;color:#5B6472">Viajeros</span><span style="font-size:15px;color:#14213D">2 adultos + 2 chicos</span></div>
+            <div style="display:flex;flex-direction:column;gap:2px"><span style="font-size:12px;color:#5B6472">Imprescindibles</span><span style="font-size:15px;color:#14213D">Cocina · cerca del mar</span></div>
+            <div style="display:flex;flex-direction:column;gap:2px"><span style="font-size:12px;color:#5B6472">Presupuesto</span><span style="font-size:15px;color:#6B7280">— pendiente</span></div>
+          </div>
+          <div style="height:1px;background:#E2E6E4"></div>
+          <span style="font-size:13px;line-height:1.5;color:#6B7280">Tocá cualquier dato para corregirlo. Todo esto va al pedido de búsqueda.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3 · RESEARCH -->
+  <div style="display:flex;flex-direction:column;gap:8px;margin-top:26px">
+    <div style="display:flex;align-items:center;gap:10px">
+      <span style="display:inline-flex;align-items:center;justify-content:center;min-width:26px;height:26px;border-radius:999px;background:#14213D;color:#fff;font-size:12px;font-weight:600">03</span>
+      <span style="font-size:13px;font-weight:600;color:#14213D">Búsqueda en curso — resumen mínimo</span>
+    </div>
+    <div data-screen-label="03 Buscando" style="background:#14213D;border:1px solid #14213D;border-radius:18px;padding:56px 28px;display:flex;flex-direction:column;align-items:center;gap:32px">
+      <div style="display:flex;flex-direction:column;align-items:center;gap:14px;text-align:center;max-width:640px">
+        <span style="font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,255,255,.75)">Buscando · 1 min 12 s</span>
+        <h2 style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:clamp(26px,3.2vw,40px);line-height:1.1;letter-spacing:-0.03em;color:#fff;text-wrap:pretty">Estamos mirando Punta del Este casa por casa.</h2>
+        <p style="margin:0;font-size:16px;line-height:1.55;color:rgba(255,255,255,.72)">Esto tarda unos minutos. Si querés, cerrá la pestaña: te avisamos por mail cuando esté.</p>
+      </div>
+
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px 14px;font-size:14px;color:rgba(255,255,255,.85)">
+        <span style="padding:8px 15px;border-radius:999px;background:rgba(255,255,255,.08)">43 fuentes consultadas</span>
+        <span style="padding:8px 15px;border-radius:999px;background:rgba(255,255,255,.08)">318 alojamientos vistos</span>
+        <span style="padding:8px 15px;border-radius:999px;background:rgba(255,255,255,.08)">61 pasan tus filtros</span>
+        <span style="padding:8px 15px;border-radius:999px;background:rgba(217,84,43,.22);color:#F5B49A">Leyendo reseñas</span>
+      </div>
+
+      <div style="width:100%;max-width:760px;display:flex;flex-direction:column;gap:10px">
+        <div style="display:flex;align-items:center;gap:12px;padding:14px 18px;border-radius:12px;background:rgba(255,255,255,.05);color:rgba(255,255,255,.9);font-size:14px">
+          <span style="width:7px;height:7px;border-radius:999px;background:#7ED0A7"></span> Disponibilidad real para 8–15 ene cruzada en 6 portales
+        </div>
+        <div style="display:flex;align-items:center;gap:12px;padding:14px 18px;border-radius:12px;background:rgba(255,255,255,.05);color:rgba(255,255,255,.9);font-size:14px">
+          <span style="width:7px;height:7px;border-radius:999px;background:#7ED0A7"></span> Descartados 209 por precio, distancia al mar o capacidad
+        </div>
+        <div style="display:flex;align-items:center;gap:12px;padding:14px 18px;border-radius:12px;background:rgba(255,255,255,.05);color:rgba(255,255,255,.9);font-size:14px">
+          <span style="width:7px;height:7px;border-radius:999px;background:#F0A183;animation:postaPulse 1.4s ease-in-out infinite"></span> Comparando precio del mismo alojamiento entre fuentes
+        </div>
+        <div style="position:relative;height:4px;border-radius:999px;background:rgba(255,255,255,.12);overflow:hidden;margin-top:6px">
+          <div style="position:absolute;inset:0 auto 0 0;width:25%;background:#D9542B;animation:postaSweep 1.8s linear infinite"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4 · TOP 5 -->
+  <div style="display:flex;flex-direction:column;gap:8px;margin-top:26px">
+    <div style="display:flex;align-items:center;gap:10px">
+      <span style="display:inline-flex;align-items:center;justify-content:center;min-width:26px;height:26px;border-radius:999px;background:#14213D;color:#fff;font-size:12px;font-weight:600">04</span>
+      <span style="font-size:13px;font-weight:600;color:#14213D">Top 5 — ranking con el por qué</span>
+    </div>
+    <div data-screen-label="04 Top 5" style="background:#F2F4F3;border:1px solid #DADEDC;border-radius:18px;overflow:hidden">
+      <div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:18px;padding:30px 28px 22px;border-bottom:1px solid #E2E6E4">
+        <div style="display:flex;flex-direction:column;gap:10px;min-width:0">
+          <h2 style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:clamp(24px,2.8vw,34px);letter-spacing:-0.03em;color:#14213D">Tus 5 mejores opciones en Punta del Este</h2>
+          <div style="display:flex;flex-wrap:wrap;gap:7px">
+            <span style="padding:6px 13px;border:1px solid #DADEDC;background:#fff;border-radius:999px;font-size:13px;color:#4B5563">8 → 15 ene</span>
+            <span style="padding:6px 13px;border:1px solid #DADEDC;background:#fff;border-radius:999px;font-size:13px;color:#4B5563">2 + 2 chicos</span>
+            <span style="padding:6px 13px;border:1px solid #DADEDC;background:#fff;border-radius:999px;font-size:13px;color:#4B5563">US$ 120–220 / noche</span>
+            <span style="padding:6px 13px;border:1px solid #DADEDC;background:#fff;border-radius:999px;font-size:13px;color:#4B5563">Cocina · cerca del mar</span>
+            <a href="#1a" style="padding:6px 13px;border:1px dashed #C7CCC9;border-radius:999px;font-size:13px;color:#6B7280">Ajustar</a>
+          </div>
+        </div>
+        <span style="font-size:13px;color:#6B7280;text-align:right">De 318 alojamientos en 43 fuentes.<br />Descartamos 313 y te contamos por qué.</span>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:14px;padding:22px 28px 30px">
+
+        <div style="display:grid;grid-template-columns:56px 220px minmax(0,1fr) 210px;gap:20px;align-items:stretch;background:#fff;border:1px solid #DADEDC;border-radius:16px;padding:16px;box-shadow:0 10px 24px rgba(20,33,61,.06)">
+          <div style="display:flex;flex-direction:column;align-items:center;gap:8px">
+            <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:34px;line-height:1;color:#D9542B">1</span>
+            <span style="font-size:11px;text-align:center;line-height:1.3;color:#5B6472">mejor<br />match</span>
+          </div>
+          <div style="position:relative;border-radius:12px;overflow:hidden;min-height:170px">
+            <image-slot id="posta-r1" shape="rect" placeholder="Casa con jardín"></image-slot>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:10px;min-width:0">
+            <div style="display:flex;flex-direction:column;gap:3px">
+              <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:21px;letter-spacing:-0.02em;color:#14213D">Casa Los Aromos — Pinares</span>
+              <span style="font-size:13px;color:#6B7280">Casa · 3 dorm · 380 m de la playa Mansa</span>
+            </div>
+            <p style="margin:0;font-size:15px;line-height:1.5;color:#4B5563;text-wrap:pretty">La única de la lista con jardín cerrado y parrillero, que con chicos de 6 y 9 cambia el viaje. Está a 5 minutos caminando de la Mansa, que tiene menos oleaje que la Brava.</p>
+            <div style="display:flex;flex-wrap:wrap;gap:6px">
+              <span style="padding:5px 11px;border-radius:999px;background:#EEF4F0;font-size:12px;color:#2F6B4F">Cocina completa</span>
+              <span style="padding:5px 11px;border-radius:999px;background:#EEF4F0;font-size:12px;color:#2F6B4F">Jardín cerrado</span>
+              <span style="padding:5px 11px;border-radius:999px;background:#EEF4F0;font-size:12px;color:#2F6B4F">4,8 en 62 reseñas</span>
+              <span style="padding:5px 11px;border-radius:999px;background:#FBEEE8;font-size:12px;color:#A8431F">Sin aire en los dormitorios</span>
+            </div>
+          </div>
+          <div style="display:flex;flex-direction:column;justify-content:space-between;gap:12px;padding-left:20px;border-left:1px solid #E2E6E4">
+            <div style="display:flex;flex-direction:column;gap:3px">
+              <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:26px;letter-spacing:-0.02em;color:#14213D">US$ 165</span>
+              <span style="font-size:13px;color:#6B7280">por noche · US$ 1.155 total</span>
+              <span style="font-size:13px;color:#2F6B4F">US$ 90 más barato directo</span>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:7px">
+              <a href="#1a" style="text-align:center;background:#D9542B;color:#fff;font-size:14px;font-weight:600;padding:11px 14px;border-radius:999px" style-hover="background:#C04720;color:#fff">Reservar directo</a>
+              <a href="#1a" style="text-align:center;border:1px solid #DADEDC;font-size:14px;padding:10px 14px;border-radius:999px;color:#14213D">Ver ficha</a>
+              <span style="font-size:11px;text-align:center;color:#5B6472">También en Booking y Airbnb</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:56px 220px minmax(0,1fr) 210px;gap:20px;align-items:stretch;background:#fff;border:1px solid #DADEDC;border-radius:16px;padding:16px">
+          <div style="display:flex;flex-direction:column;align-items:center;gap:8px">
+            <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:34px;line-height:1;color:#14213D">2</span>
+            <span style="font-size:11px;text-align:center;line-height:1.3;color:#5B6472">mejor<br />precio</span>
+          </div>
+          <div style="position:relative;border-radius:12px;overflow:hidden;min-height:170px">
+            <image-slot id="posta-r2" shape="rect" placeholder="Apart con vista"></image-slot>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:10px;min-width:0">
+            <div style="display:flex;flex-direction:column;gap:3px">
+              <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:21px;letter-spacing:-0.02em;color:#14213D">Apart Mansa 1200 — Península</span>
+              <span style="font-size:13px;color:#6B7280">Apartamento · 2 dorm · frente a la rambla</span>
+            </div>
+            <p style="margin:0;font-size:15px;line-height:1.5;color:#4B5563;text-wrap:pretty">Lo más barato que encontramos sin bajar de 4,5 en reseñas. Piso 11 con vista al puerto, y quedás caminando a todo. El edificio es de los 80 y se nota en los ambientes.</p>
+            <div style="display:flex;flex-wrap:wrap;gap:6px">
+              <span style="padding:5px 11px;border-radius:999px;background:#EEF4F0;font-size:12px;color:#2F6B4F">Cocina completa</span>
+              <span style="padding:5px 11px;border-radius:999px;background:#EEF4F0;font-size:12px;color:#2F6B4F">Aire en todo</span>
+              <span style="padding:5px 11px;border-radius:999px;background:#FBEEE8;font-size:12px;color:#A8431F">Sin cochera</span>
+            </div>
+          </div>
+          <div style="display:flex;flex-direction:column;justify-content:space-between;gap:12px;padding-left:20px;border-left:1px solid #E2E6E4">
+            <div style="display:flex;flex-direction:column;gap:3px">
+              <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:26px;letter-spacing:-0.02em;color:#14213D">US$ 128</span>
+              <span style="font-size:13px;color:#6B7280">por noche · US$ 896 total</span>
+              <span style="font-size:13px;color:#6B7280">mismo precio en 3 fuentes</span>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:7px">
+              <a href="#1a" style="text-align:center;background:#14213D;color:#fff;font-size:14px;font-weight:600;padding:11px 14px;border-radius:999px" style-hover="background:#0D1730;color:#fff">Reservar en Booking</a>
+              <a href="#1a" style="text-align:center;border:1px solid #DADEDC;font-size:14px;padding:10px 14px;border-radius:999px;color:#14213D">Ver ficha</a>
+            </div>
+          </div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:56px 220px minmax(0,1fr) 210px;gap:20px;align-items:stretch;background:#fff;border:1px solid #DADEDC;border-radius:16px;padding:16px">
+          <div style="display:flex;flex-direction:column;align-items:center;gap:8px">
+            <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:34px;line-height:1;color:#14213D">3</span>
+            <span style="font-size:11px;text-align:center;line-height:1.3;color:#5B6472">si querés<br />servicios</span>
+          </div>
+          <div style="position:relative;border-radius:12px;overflow:hidden;min-height:170px">
+            <image-slot id="posta-r3" shape="rect" placeholder="Hotel con piscina"></image-slot>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:10px;min-width:0">
+            <div style="display:flex;flex-direction:column;gap:3px">
+              <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:21px;letter-spacing:-0.02em;color:#14213D">Posada del Faro — La Barra</span>
+              <span style="font-size:13px;color:#6B7280">Posada · 2 habitaciones comunicadas · piscina</span>
+            </div>
+            <p style="margin:0;font-size:15px;line-height:1.5;color:#4B5563;text-wrap:pretty">No tiene cocina, pero incluye desayuno y piscina climatizada, y las dos habitaciones se comunican. Si el plan es no cocinar en vacaciones, esta es la opción.</p>
+            <div style="display:flex;flex-wrap:wrap;gap:6px">
+              <span style="padding:5px 11px;border-radius:999px;background:#EEF4F0;font-size:12px;color:#2F6B4F">Desayuno incluido</span>
+              <span style="padding:5px 11px;border-radius:999px;background:#EEF4F0;font-size:12px;color:#2F6B4F">Piscina</span>
+              <span style="padding:5px 11px;border-radius:999px;background:#FBEEE8;font-size:12px;color:#A8431F">Sin cocina</span>
+              <span style="padding:5px 11px;border-radius:999px;background:#FBEEE8;font-size:12px;color:#A8431F">Auto necesario</span>
+            </div>
+          </div>
+          <div style="display:flex;flex-direction:column;justify-content:space-between;gap:12px;padding-left:20px;border-left:1px solid #E2E6E4">
+            <div style="display:flex;flex-direction:column;gap:3px">
+              <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:26px;letter-spacing:-0.02em;color:#14213D">US$ 210</span>
+              <span style="font-size:13px;color:#6B7280">por noche · US$ 1.470 total</span>
+              <span style="font-size:13px;color:#2F6B4F">US$ 140 menos que en Expedia</span>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:7px">
+              <a href="#1a" style="text-align:center;background:#14213D;color:#fff;font-size:14px;font-weight:600;padding:11px 14px;border-radius:999px" style-hover="background:#0D1730;color:#fff">Reservar directo</a>
+              <a href="#1a" style="text-align:center;border:1px solid #DADEDC;font-size:14px;padding:10px 14px;border-radius:999px;color:#14213D">Ver ficha</a>
+            </div>
+          </div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px">
+          <div style="display:flex;gap:16px;background:#fff;border:1px solid #DADEDC;border-radius:16px;padding:16px">
+            <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:28px;line-height:1;color:#14213D">4</span>
+            <div style="position:relative;flex:0 0 110px;border-radius:10px;overflow:hidden;min-height:120px">
+              <image-slot id="posta-r4" shape="rect" placeholder="Casa de campo"></image-slot>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:6px;min-width:0">
+              <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:17px;color:#14213D">Casa Manantiales 47</span>
+              <span style="font-size:13px;color:#6B7280">Casa · 3 dorm · 1,2 km de la playa</span>
+              <p style="margin:0;font-size:14px;line-height:1.45;color:#4B5563">Más casa por el mismo precio, a cambio de manejar hasta la playa.</p>
+              <span style="font-size:15px;font-weight:600;color:#14213D">US$ 158 / noche</span>
+            </div>
+          </div>
+          <div style="display:flex;gap:16px;background:#fff;border:1px solid #DADEDC;border-radius:16px;padding:16px">
+            <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:28px;line-height:1;color:#14213D">5</span>
+            <div style="position:relative;flex:0 0 110px;border-radius:10px;overflow:hidden;min-height:120px">
+              <image-slot id="posta-r5" shape="rect" placeholder="Hostel familiar"></image-slot>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:6px;min-width:0">
+              <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:17px;color:#14213D">Hostel Trip — habitación familiar</span>
+              <span style="font-size:13px;color:#6B7280">Hostel · privada para 4 · centro</span>
+              <p style="margin:0;font-size:14px;line-height:1.45;color:#4B5563">La opción de ahorro real, si no te molesta cocina compartida.</p>
+              <span style="font-size:15px;font-weight:600;color:#14213D">US$ 84 / noche</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;padding:16px 18px;border:1px dashed #C7CCC9;border-radius:14px">
+          <span style="font-size:14px;color:#4B5563">¿Ninguna cierra? Contanos qué le falta y volvemos a buscar con eso en cuenta.</span>
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <span style="padding:8px 14px;border:1px solid #DADEDC;background:#fff;border-radius:999px;font-size:13px;color:#4B5563">Más baratas</span>
+            <span style="padding:8px 14px;border:1px solid #DADEDC;background:#fff;border-radius:999px;font-size:13px;color:#4B5563">Más cerca del mar</span>
+            <span style="padding:8px 14px;border:1px solid #DADEDC;background:#fff;border-radius:999px;font-size:13px;color:#4B5563">Con piscina</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5 · FICHA -->
+  <div style="display:flex;flex-direction:column;gap:8px;margin-top:26px">
+    <div style="display:flex;align-items:center;gap:10px">
+      <span style="display:inline-flex;align-items:center;justify-content:center;min-width:26px;height:26px;border-radius:999px;background:#14213D;color:#fff;font-size:12px;font-weight:600">05</span>
+      <span style="font-size:13px;font-weight:600;color:#14213D">Ficha — comparación de precio entre fuentes</span>
+    </div>
+    <div data-screen-label="05 Ficha" style="background:#F2F4F3;border:1px solid #DADEDC;border-radius:18px;overflow:hidden">
+      <div style="display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:0">
+        <div style="display:flex;flex-direction:column;gap:22px;padding:28px;min-width:0">
+          <a href="#1a" style="font-size:13px;color:#6B7280">← Volver al top 5</a>
+          <div style="display:grid;grid-template-columns:2fr 1fr;grid-template-rows:repeat(2,110px);gap:8px">
+            <div style="position:relative;grid-row:span 2;border-radius:14px;overflow:hidden"><image-slot id="posta-d1" shape="rect" placeholder="Foto principal"></image-slot></div>
+            <div style="position:relative;border-radius:14px;overflow:hidden"><image-slot id="posta-d2" shape="rect" placeholder="Interior"></image-slot></div>
+            <div style="position:relative;border-radius:14px;overflow:hidden"><image-slot id="posta-d3" shape="rect" placeholder="Jardín"></image-slot></div>
+          </div>
+
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <h2 style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:clamp(24px,2.6vw,32px);letter-spacing:-0.03em;color:#14213D">Casa Los Aromos — Pinares</h2>
+            <span style="font-size:15px;color:#6B7280">Casa entera · 3 dormitorios · 2 baños · hasta 6 personas · 380 m de la playa Mansa</span>
+          </div>
+
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px">
+            <div style="display:flex;flex-direction:column;gap:6px;background:#fff;border:1px solid #DADEDC;border-radius:12px;padding:14px">
+              <span style="font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:#5B6472">Reseñas</span>
+              <span style="font-size:17px;color:#14213D">4,8 · 62 opiniones</span>
+              <span style="font-size:13px;color:#6B7280">de 3 plataformas</span>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:6px;background:#fff;border:1px solid #DADEDC;border-radius:12px;padding:14px">
+              <span style="font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:#5B6472">A la playa</span>
+              <span style="font-size:17px;color:#14213D">5 min caminando</span>
+              <span style="font-size:13px;color:#6B7280">Mansa, oleaje suave</span>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:6px;background:#fff;border:1px solid #DADEDC;border-radius:12px;padding:14px">
+              <span style="font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:#5B6472">Cancelación</span>
+              <span style="font-size:17px;color:#14213D">Gratis hasta 20 dic</span>
+              <span style="font-size:13px;color:#6B7280">reservando directo</span>
+            </div>
+          </div>
+
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px">
+            <div style="display:flex;flex-direction:column;gap:9px;background:#fff;border:1px solid #DADEDC;border-radius:14px;padding:18px">
+              <span style="font-size:13px;font-weight:600;color:#2F6B4F">Lo bueno</span>
+              <span style="font-size:14px;line-height:1.5;color:#4B5563">Jardín cerrado con parrillero y pelotero.</span>
+              <span style="font-size:14px;line-height:1.5;color:#4B5563">Cocina equipada de verdad: horno, lavavajillas, lavarropas.</span>
+              <span style="font-size:14px;line-height:1.5;color:#4B5563">Los dueños viven a dos cuadras y responden rápido.</span>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:9px;background:#fff;border:1px solid #DADEDC;border-radius:14px;padding:18px">
+              <span style="font-size:13px;font-weight:600;color:#A8431F">A tener en cuenta</span>
+              <span style="font-size:14px;line-height:1.5;color:#4B5563">Aire solo en el living; los cuartos tienen ventilador.</span>
+              <span style="font-size:14px;line-height:1.5;color:#4B5563">Tres reseñas mencionan ruido de obra en la cuadra (enero 2025).</span>
+              <span style="font-size:14px;line-height:1.5;color:#4B5563">Depósito de US$ 200 en efectivo al llegar.</span>
+            </div>
+          </div>
+
+          <div style="position:relative;border-radius:14px;overflow:hidden;border:1px solid #DADEDC;min-height:200px">
+            <image-slot id="posta-map" shape="rect" placeholder="Mapa — Pinares y distancia a la playa"></image-slot>
+          </div>
+        </div>
+
+        <div style="display:flex;flex-direction:column;gap:18px;padding:28px 24px;background:#fff;border-left:1px solid #E2E6E4;min-width:0">
+          <div style="display:flex;flex-direction:column;gap:4px">
+            <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:30px;letter-spacing:-0.02em;color:#14213D">US$ 1.155</span>
+            <span style="font-size:14px;color:#6B7280">7 noches · US$ 165 por noche · impuestos incluidos</span>
+          </div>
+
+          <div style="display:flex;flex-direction:column;gap:10px">
+            <span style="font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:#5B6472">El mismo alojamiento, 4 precios</span>
+
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 15px;border:1.5px solid #D9542B;border-radius:12px;background:#FDF6F3">
+              <div style="display:flex;flex-direction:column;gap:2px">
+                <span style="font-size:15px;font-weight:600;color:#14213D">Sitio del dueño</span>
+                <span style="font-size:12px;color:#2F6B4F">sin comisión · cancelación flexible</span>
+              </div>
+              <span style="font-size:17px;font-weight:600;color:#14213D">US$ 1.155</span>
+            </div>
+
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 15px;border:1px solid #E2E6E4;border-radius:12px">
+              <div style="display:flex;flex-direction:column;gap:2px">
+                <span style="font-size:15px;color:#14213D">Airbnb</span>
+                <span style="font-size:12px;color:#6B7280">incluye limpieza US$ 60</span>
+              </div>
+              <span style="font-size:17px;color:#14213D">US$ 1.245</span>
+            </div>
+
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 15px;border:1px solid #E2E6E4;border-radius:12px">
+              <div style="display:flex;flex-direction:column;gap:2px">
+                <span style="font-size:15px;color:#14213D">Booking</span>
+                <span style="font-size:12px;color:#6B7280">pago total al reservar</span>
+              </div>
+              <span style="font-size:17px;color:#14213D">US$ 1.288</span>
+            </div>
+
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 15px;border:1px solid #E2E6E4;border-radius:12px">
+              <div style="display:flex;flex-direction:column;gap:2px">
+                <span style="font-size:15px;color:#14213D">Inmobiliaria Pinares</span>
+                <span style="font-size:12px;color:#6B7280">requiere visita previa</span>
+              </div>
+              <span style="font-size:17px;color:#14213D">US$ 1.310</span>
+            </div>
+          </div>
+
+          <a href="#1a" style="text-align:center;background:#D9542B;color:#fff;font-size:15px;font-weight:600;padding:14px;border-radius:999px" style-hover="background:#C04720;color:#fff">Ir al sitio del dueño</a>
+          <span style="font-size:12px;line-height:1.5;color:#5B6472;text-align:center">Te llevamos al sitio de quien alquila. posta no cobra comisión y no toca tu pago.</span>
+
+          <div style="height:1px;background:#E2E6E4"></div>
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <span style="font-size:13px;color:#4B5563">Preguntale a posta sobre esta casa</span>
+            <div style="display:flex;flex-wrap:wrap;gap:7px">
+              <span style="padding:7px 13px;border:1px solid #DADEDC;border-radius:999px;font-size:13px;color:#4B5563">¿Sirve con chicos?</span>
+              <span style="padding:7px 13px;border:1px solid #DADEDC;border-radius:999px;font-size:13px;color:#4B5563">¿Cómo es el barrio?</span>
+              <span style="padding:7px 13px;border:1px solid #DADEDC;border-radius:999px;font-size:13px;color:#4B5563">¿Conviene esperar?</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6 · HISTORIAL -->
+  <div style="display:flex;flex-direction:column;gap:8px;margin-top:26px">
+    <div style="display:flex;align-items:center;gap:10px">
+      <span style="display:inline-flex;align-items:center;justify-content:center;min-width:26px;height:26px;border-radius:999px;background:#14213D;color:#fff;font-size:12px;font-weight:600">06</span>
+      <span style="font-size:13px;font-weight:600;color:#14213D">Mis búsquedas</span>
+    </div>
+    <div data-screen-label="06 Historial" style="background:#F2F4F3;border:1px solid #DADEDC;border-radius:18px;padding:28px;display:flex;flex-direction:column;gap:18px">
+      <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px">
+        <h2 style="margin:0;font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:clamp(22px,2.4vw,30px);letter-spacing:-0.03em;color:#14213D">Mis búsquedas</h2>
+        <a href="#1a" style="background:#D9542B;color:#fff;font-size:14px;font-weight:600;padding:11px 20px;border-radius:999px" style-hover="background:#C04720;color:#fff">Nueva búsqueda</a>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <div style="display:grid;grid-template-columns:minmax(0,1fr) 160px 150px 110px;gap:18px;align-items:center;background:#fff;border:1px solid #DADEDC;border-radius:14px;padding:16px 18px">
+          <div style="display:flex;flex-direction:column;gap:3px;min-width:0">
+            <span style="font-size:16px;font-weight:600;color:#14213D">Punta del Este · 8 → 15 ene</span>
+            <span style="font-size:13px;color:#6B7280">2 adultos + 2 chicos · cocina, cerca del mar</span>
+          </div>
+          <span style="font-size:13px;color:#6B7280">hace 2 horas</span>
+          <span style="justify-self:start;padding:6px 13px;border-radius:999px;background:#EEF4F0;font-size:13px;color:#2F6B4F">5 resultados</span>
+          <a href="#1a" style="justify-self:end;font-size:14px;font-weight:600;color:#D9542B">Ver</a>
+        </div>
+
+        <div style="display:grid;grid-template-columns:minmax(0,1fr) 160px 150px 110px;gap:18px;align-items:center;background:#fff;border:1px solid #DADEDC;border-radius:14px;padding:16px 18px">
+          <div style="display:flex;flex-direction:column;gap:3px;min-width:0">
+            <span style="font-size:16px;font-weight:600;color:#14213D">Cabo Polonio · 14 → 17 feb</span>
+            <span style="font-size:13px;color:#6B7280">2 adultos · sin auto</span>
+          </div>
+          <span style="font-size:13px;color:#6B7280">buscando ahora</span>
+          <div style="display:flex;align-items:center;gap:8px">
+            <span style="width:7px;height:7px;border-radius:999px;background:#D9542B;animation:postaPulse 1.4s ease-in-out infinite"></span>
+            <span style="font-size:13px;color:#4B5563">2 min restantes</span>
+          </div>
+          <a href="#1a" style="justify-self:end;font-size:14px;color:#6B7280">Seguir</a>
+        </div>
+
+        <div style="display:grid;grid-template-columns:minmax(0,1fr) 160px 150px 110px;gap:18px;align-items:center;background:#fff;border:1px solid #DADEDC;border-radius:14px;padding:16px 18px">
+          <div style="display:flex;flex-direction:column;gap:3px;min-width:0">
+            <span style="font-size:16px;font-weight:600;color:#14213D">Buenos Aires · 3 → 6 abr</span>
+            <span style="font-size:13px;color:#6B7280">1 adulto · viaje de trabajo, Palermo</span>
+          </div>
+          <span style="font-size:13px;color:#6B7280">hace 3 semanas</span>
+          <span style="justify-self:start;padding:6px 13px;border-radius:999px;background:#F2F4F3;font-size:13px;color:#6B7280">precios vencidos</span>
+          <a href="#1a" style="justify-self:end;font-size:14px;color:#6B7280">Rebuscar</a>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:10px;margin-top:6px">
+        <span style="font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:#5B6472">Guardados</span>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px">
+          <div style="display:flex;flex-direction:column;gap:8px;background:#fff;border:1px solid #DADEDC;border-radius:14px;padding:12px">
+            <div style="position:relative;border-radius:10px;overflow:hidden;height:96px"><image-slot id="posta-s1" shape="rect" placeholder="Guardado"></image-slot></div>
+            <span style="font-size:15px;font-weight:600;color:#14213D">Casa Los Aromos</span>
+            <span style="font-size:13px;color:#6B7280">US$ 165 / noche · sin cambios</span>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:8px;background:#fff;border:1px solid #DADEDC;border-radius:14px;padding:12px">
+            <div style="position:relative;border-radius:10px;overflow:hidden;height:96px"><image-slot id="posta-s2" shape="rect" placeholder="Guardado"></image-slot></div>
+            <span style="font-size:15px;font-weight:600;color:#14213D">Apart Mansa 1200</span>
+            <span style="font-size:13px;color:#2F6B4F">bajó US$ 12 por noche</span>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:8px;background:#fff;border:1px solid #DADEDC;border-radius:14px;padding:12px">
+            <div style="position:relative;border-radius:10px;overflow:hidden;height:96px"><image-slot id="posta-s3" shape="rect" placeholder="Guardado"></image-slot></div>
+            <span style="font-size:15px;font-weight:600;color:#14213D">Posada del Faro</span>
+            <span style="font-size:13px;color:#A8431F">quedan 2 habitaciones</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MOBILE -->
+  <div style="display:flex;flex-direction:column;gap:8px;margin-top:26px">
+    <div style="display:flex;align-items:center;gap:10px">
+      <span style="display:inline-flex;align-items:center;justify-content:center;min-width:26px;height:26px;border-radius:999px;background:#D9542B;color:#fff;font-size:12px;font-weight:600">M</span>
+      <span style="font-size:13px;font-weight:600;color:#14213D">Mobile — entrevista y resultado</span>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:20px">
+
+      <div data-screen-label="M1 Entrevista mobile" style="width:340px;background:#F2F4F3;border:1px solid #DADEDC;border-radius:26px;padding:16px;display:flex;flex-direction:column;gap:14px">
+        <div style="display:flex;align-items:center;justify-content:space-between">
+          <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:17px;color:#14213D">posta<span style="color:#D9542B">.</span></span>
+          <span style="font-size:12px;color:#6B7280">4 / 6</span>
+        </div>
+        <div style="height:4px;border-radius:999px;background:#E2E6E4;overflow:hidden"><div style="width:66%;height:100%;background:#D9542B"></div></div>
+        <div style="align-self:flex-end;max-width:85%;background:#14213D;color:#fff;padding:11px 14px;border-radius:14px 14px 4px 14px;font-size:14px;line-height:1.45">2 adultos + 2 chicos (6 y 9)</div>
+        <div style="background:#fff;border:1px solid #E2E6E4;padding:12px 14px;border-radius:14px 14px 14px 4px;font-size:14px;line-height:1.45;color:#14213D">¿Cuánto pensás gastar por noche, todo incluido?</div>
+        <div style="display:flex;flex-direction:column;gap:7px">
+          <span style="padding:12px 14px;border:1px solid #DADEDC;background:#fff;border-radius:12px;font-size:14px;color:#14213D">Hasta US$ 120</span>
+          <span style="padding:12px 14px;border:1px solid #DADEDC;background:#fff;border-radius:12px;font-size:14px;color:#14213D">US$ 120–220</span>
+          <span style="padding:12px 14px;border:1px solid #DADEDC;background:#fff;border-radius:12px;font-size:14px;color:#14213D">US$ 220–400</span>
+          <span style="padding:12px 14px;border:1px dashed #C7CCC9;border-radius:12px;font-size:14px;color:#6B7280">Mostrame rangos</span>
+        </div>
+        <div style="margin-top:auto;display:flex;align-items:center;gap:10px;background:#fff;border:1px solid #DADEDC;border-radius:999px;padding:12px 16px;font-size:14px;color:#9CA3AF">Escribí tu respuesta…</div>
+      </div>
+
+      <div data-screen-label="M2 Resultado mobile" style="width:340px;background:#F2F4F3;border:1px solid #DADEDC;border-radius:26px;padding:16px;display:flex;flex-direction:column;gap:12px">
+        <div style="display:flex;align-items:center;justify-content:space-between">
+          <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:17px;color:#14213D">posta<span style="color:#D9542B">.</span></span>
+          <span style="font-size:12px;color:#6B7280">5 opciones</span>
+        </div>
+        <span style="font-size:13px;color:#6B7280">Punta del Este · 8 → 15 ene · 2 + 2</span>
+        <div style="display:flex;flex-direction:column;gap:10px;background:#fff;border:1px solid #DADEDC;border-radius:16px;padding:12px">
+          <div style="position:relative;border-radius:12px;overflow:hidden;height:150px"><image-slot id="posta-m1" shape="rect" placeholder="Casa Los Aromos"></image-slot></div>
+          <div style="display:flex;align-items:baseline;gap:8px">
+            <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:20px;color:#D9542B">1</span>
+            <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:17px;color:#14213D">Casa Los Aromos</span>
+          </div>
+          <span style="font-size:13px;color:#6B7280">Casa · 3 dorm · 380 m de la Mansa</span>
+          <p style="margin:0;font-size:14px;line-height:1.45;color:#4B5563">La única con jardín cerrado y parrillero. A 5 minutos de la playa con menos oleaje.</p>
+          <div style="display:flex;flex-wrap:wrap;gap:6px">
+            <span style="padding:5px 10px;border-radius:999px;background:#EEF4F0;font-size:12px;color:#2F6B4F">Cocina</span>
+            <span style="padding:5px 10px;border-radius:999px;background:#EEF4F0;font-size:12px;color:#2F6B4F">4,8 · 62</span>
+            <span style="padding:5px 10px;border-radius:999px;background:#FBEEE8;font-size:12px;color:#A8431F">Sin aire en cuartos</span>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;padding-top:8px;border-top:1px solid #E2E6E4">
+            <div style="display:flex;flex-direction:column">
+              <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:19px;color:#14213D">US$ 165</span>
+              <span style="font-size:12px;color:#6B7280">noche · US$ 1.155 total</span>
+            </div>
+            <a href="#1a" style="background:#D9542B;color:#fff;font-size:14px;font-weight:600;padding:11px 18px;border-radius:999px" style-hover="background:#C04720;color:#fff">Reservar</a>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:8px;background:#fff;border:1px solid #DADEDC;border-radius:16px;padding:12px">
+          <div style="display:flex;align-items:baseline;gap:8px">
+            <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:20px;color:#14213D">2</span>
+            <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:17px;color:#14213D">Apart Mansa 1200</span>
+          </div>
+          <span style="font-size:13px;color:#6B7280">US$ 128 / noche · mejor precio</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</x-dc>
+</body>
+</html>

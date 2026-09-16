@@ -1,0 +1,20 @@
+# entorno
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# outputs de corridas (nunca se commitean)
+runs/
+
+# frontend
+frontend/node_modules/
+frontend/dist/
+
+# scratch
+scripts/validation/out/

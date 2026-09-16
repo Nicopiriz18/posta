@@ -1,0 +1,16 @@
+{
+  "destination": "Buenos Aires, Argentina",
+  "area_preferences": ["Palermo", "Palermo Soho"],
+  "check_in": "2026-10-10",
+  "check_out": "2026-10-13",
+  "adults": 2,
+  "currency": "USD",
+  "budget_total_max": 450,
+  "property_types": ["hotel", "boutique hotel"],
+  "dealbreakers": ["hostel", "baño compartido"],
+  "hard_constraints": ["wifi"],
+  "soft_preferences": ["desayuno incluido", "pileta", "cancelación gratuita"],
+  "travel_purpose": "escapada en pareja",
+  "language": "es",
+  "gl": "ar"
+}

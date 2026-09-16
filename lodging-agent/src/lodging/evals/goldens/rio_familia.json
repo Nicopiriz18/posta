@@ -1,0 +1,18 @@
+{
+  "destination": "Rio de Janeiro, Brasil",
+  "area_preferences": ["Copacabana", "Ipanema"],
+  "check_in": "2027-01-15",
+  "check_out": "2027-01-20",
+  "adults": 2,
+  "children": 2,
+  "children_ages": [6, 9],
+  "currency": "USD",
+  "budget_total_max": 1200,
+  "property_types": ["hotel", "apartment"],
+  "dealbreakers": ["hostel"],
+  "hard_constraints": ["pileta", "aire acondicionado"],
+  "soft_preferences": ["desayuno incluido", "cerca de la playa", "cocina"],
+  "travel_purpose": "vacaciones en familia",
+  "language": "es",
+  "gl": "br"
+}

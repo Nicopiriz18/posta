@@ -1,0 +1,2687 @@
+{
+ "search_metadata": {
+  "id": "6aa476961f758a739bcfd9b7",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/cmYSAgzhXNVp3FMjwEMH33NNJlQDcoKTd-xTEeAssyU/6aa476961f758a739bcfd9b7.json",
+  "markdown_endpoint": "https://serpapi.com/searches/cmYSAgzhXNVp3FMjwEMH33NNJlQDcoKTd-xTEeAssyU/6aa476961f758a739bcfd9b7.md",
+  "created_at": "2026-09-11T21:45:58.251Z",
+  "processed_at": "2026-09-11T21:45:58.252Z",
+  "google_hotels_url": "https://www.google.com/travel/search?q=Hotels+in+Palermo%2C+Buenos+Aires&hl=es&gl=ar",
+  "raw_html_file": "https://serpapi.com/searches/cmYSAgzhXNVp3FMjwEMH33NNJlQDcoKTd-xTEeAssyU/6aa476961f758a739bcfd9b7.html",
+  "prettify_html_file": "https://serpapi.com/searches/cmYSAgzhXNVp3FMjwEMH33NNJlQDcoKTd-xTEeAssyU/6aa476961f758a739bcfd9b7.prettify",
+  "total_time_taken": {
+   "float": 2.0676777362823486
+  }
+ },
+ "search_parameters": {
+  "engine": "google_hotels",
+  "q": "Hotels in Palermo, Buenos Aires",
+  "gl": "ar",
+  "hl": "es",
+  "currency": "USD",
+  "check_in_date": "2026-10-10",
+  "check_out_date": "2026-10-13",
+  "adults": 2,
+  "children": 0
+ },
+ "search_information": {
+  "total_results": 8231
+ },
+ "brands": [
+  {
+   "id": 46,
+   "name": "Marriott Bonvoy",
+   "children": [
+    {
+     "id": 219,
+     "name": "City Express Plus"
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "name": "Wyndham Hotels & Resorts",
+   "children": [
+    {
+     "id": 138,
+     "name": "Dazzler"
+    }
+   ]
+  }
+ ],
+ "properties": [
+  {
+   "type": "vacation rental",
+   "name": "Corazón de Palermo Soho",
+   "link": "https://www.bluepillow.es/search/65ca4dd2671b07d23c6d50b6?dest=bkng&cat=House&lat=-34.5884&lng=-58.42665&language=es",
+   "property_token": "ChkQ57LJ3aPpyfENGg0vZy8xMXp3eXoybGNoEAI",
+   "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-10-10&check_out_date=2026-10-13&children=0&currency=USD&engine=google_hotels&gl=ar&hl=es&property_token=ChkQ57LJ3aPpyfENGg0vZy8xMXp3eXoybGNoEAI&q=Hotels+in+Palermo%2C+Buenos+Aires",
+   "gps_coordinates": {
+    "latitude": -34.588401794433594,
+    "longitude": -58.42665100097656
+   },
+   "check_in_time": "12:00",
+   "check_out_time": "10:00",
+   "rate_per_night": {
+    "lowest": "US$ 50",
+    "extracted_lowest": 50,
+    "before_taxes_fees": "US$ 50",
+    "extracted_before_taxes_fees": 50
+   },
+   "total_rate": {
+    "lowest": "US$ 149",
+    "extracted_lowest": 149,
+    "before_taxes_fees": "US$ 149",
+    "extracted_before_taxes_fees": 149
+   },
+   "prices": [
+    {
+     "source": "Bluepillow.com",
+     "num_guests": 2,
+     "rate_per_night": {
+      "lowest": "US$ 50",
+      "extracted_lowest": 50
+     },
+     "free_cancellation": true,
+     "free_cancellation_until_date": "14 jun",
+     "free_cancellation_until_time": "21:00"
+    }
+   ],
+   "overall_rating": 5,
+   "reviews": 8,
+   "amenities": [
+    "Aire acondicionado",
+    "Jacuzzi",
+    "Piscina interior",
+    "Tabla de planchar",
+    "Cocina",
+    "Libre de humos",
+    "Televisión por cable",
+    "Lavadora",
+    "Accesibilidad para sillas de ruedas",
+    "Wi‑Fi gratis"
+   ],
+   "excluded_amenities": [
+    "No hay servicio de traslado al aeropuerto",
+    "No hay piscina exterior"
+   ],
+   "essential_info": [
+    "Toda la casa",
+    "Capacidad para 2",
+    "1 dormitorio",
+    "1 baño",
+    "1 cama"
+   ],
+   "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkQ57LJ3aPpyfENGg0vZy8xMXp3eXoybGNoEAI",
+   "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkQ57LJ3aPpyfENGg0vZy8xMXp3eXoybGNoEAI"
+  },
+  {
+   "type": "hotel",
+   "name": "Nido @ Palermo Soho Square",
+   "link": "https://www.staynido.com/es",
+   "property_token": "ChkI-8aA1PXn1pUoGg0vZy8xMWYxMnp6dDE0EAE",
+   "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-10-10&check_out_date=2026-10-13&children=0&currency=USD&engine=google_hotels&gl=ar&hl=es&property_token=ChkI-8aA1PXn1pUoGg0vZy8xMWYxMnp6dDE0EAE&q=Hotels+in+Palermo%2C+Buenos+Aires",
+   "gps_coordinates": {
+    "latitude": -34.5829644,
+    "longitude": -58.42377859999999
+   },
+   "rate_per_night": {
+    "lowest": "US$ 59",
+    "extracted_lowest": 59,
+    "before_taxes_fees": "US$ 56",
+    "extracted_before_taxes_fees": 56
+   },
+   "total_rate": {
+    "lowest": "US$ 176",
+    "extracted_lowest": 176,
+    "before_taxes_fees": "US$ 167",
+    "extracted_before_taxes_fees": 167
+   },
+   "deal": "33% menos de lo habitual",
+   "deal_description": "Great Deal",
+   "nearby_places": [
+    {
+     "name": "Jardín Botánico Carlos Thays",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "9 min"
+      }
+     ]
+    },
+    {
+     "name": "Ministro Carranza",
+     "transportations": [
+      {
+       "type": "Taxi",
+       "duration": "8 min"
+      }
+     ]
+    },
+    {
+     "name": "Aeroparque Internacional Jorge Newbery",
+     "transportations": [
+      {
+       "type": "Public transport",
+       "duration": "15 min"
+      },
+      {
+       "type": "Taxi",
+       "duration": "21 min"
+      }
+     ]
+    },
+    {
+     "name": "El Pingüino de Palermo",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "4 min"
+      }
+     ]
+    }
+   ],
+   "hotel_class": "Hotel de 3 estrellas",
+   "extracted_hotel_class": 3,
+   "overall_rating": 4.2,
+   "reviews": 150,
+   "ratings": [
+    {
+     "stars": 5,
+     "count": 95
+    },
+    {
+     "stars": 4,
+     "count": 21
+    },
+    {
+     "stars": 3,
+     "count": 16
+    },
+    {
+     "stars": 2,
+     "count": 2
+    },
+    {
+     "stars": 1,
+     "count": 16
+    }
+   ],
+   "location_rating": 4.5,
+   "reviews_breakdown": [
+    {
+     "name": "Ubicación",
+     "description": "Location",
+     "total_mentioned": 6,
+     "positive": 6,
+     "negative": 0,
+     "neutral": 0,
+     "category_token": "9CWruHica1yRnFiSmp5fVDl5hU8-kJ2Zn8ewKjQpMzkxOfPw5jwA6nQOOg",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=9CWruHica1yRnFiSmp5fVDl5hU8-kJ2Zn8ewKjQpMzkxOfPw5jwA6nQOOg&engine=google_hotels_reviews&hl=en&property_token=ChkI-8aA1PXn1pUoGg0vZy8xMWYxMnp6dDE0EAE"
+    },
+    {
+     "name": "Servicio",
+     "description": "Service",
+     "total_mentioned": 9,
+     "positive": 5,
+     "negative": 4,
+     "neutral": 0,
+     "category_token": "2LRTC3ica1yRnFiSmp5fVDl5eXBqUVlmcirDCggjMx8AwgEMfw",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=2LRTC3ica1yRnFiSmp5fVDl5eXBqUVlmcirDCggjMx8AwgEMfw&engine=google_hotels_reviews&hl=en&property_token=ChkI-8aA1PXn1pUoGg0vZy8xMWYxMnp6dDE0EAE"
+    },
+    {
+     "name": "Propiedad",
+     "description": "Property",
+     "total_mentioned": 6,
+     "positive": 5,
+     "negative": 1,
+     "neutral": 0,
+     "category_token": "E9HH6Xica1yRnFiSmp5fVDl5RUBRfkFqUUklw0oQKzM1JTEFAN6pDWk",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=E9HH6Xica1yRnFiSmp5fVDl5RUBRfkFqUUklw0oQKzM1JTEFAN6pDWk&engine=google_hotels_reviews&hl=en&property_token=ChkI-8aA1PXn1pUoGg0vZy8xMWYxMnp6dDE0EAE"
+    }
+   ],
+   "amenities": [
+    "Free Wi-Fi",
+    "Free parking",
+    "Pool",
+    "Air conditioning",
+    "Kitchen in some rooms",
+    "Full-service laundry"
+   ],
+   "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkI-8aA1PXn1pUoGg0vZy8xMWYxMnp6dDE0EAE",
+   "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkI-8aA1PXn1pUoGg0vZy8xMWYxMnp6dDE0EAE"
+  },
+  {
+   "type": "vacation rental",
+   "name": "Palermo Soho Espectacular",
+   "property_token": "ChkQ1sz8hM29icA1Gg0vZy8xMXZwZ25jM2ZiEAI",
+   "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-10-10&check_out_date=2026-10-13&children=0&currency=USD&engine=google_hotels&gl=ar&hl=es&property_token=ChkQ1sz8hM29icA1Gg0vZy8xMXZwZ25jM2ZiEAI&q=Hotels+in+Palermo%2C+Buenos+Aires",
+   "gps_coordinates": {
+    "latitude": -34.58235168457031,
+    "longitude": -58.42721176147461
+   },
+   "check_in_time": "15:00",
+   "check_out_time": "11:00",
+   "rate_per_night": {
+    "lowest": "US$ 149",
+    "extracted_lowest": 149,
+    "before_taxes_fees": "US$ 149",
+    "extracted_before_taxes_fees": 149
+   },
+   "total_rate": {
+    "lowest": "US$ 447",
+    "extracted_lowest": 447,
+    "before_taxes_fees": "US$ 447",
+    "extracted_before_taxes_fees": 447
+   },
+   "prices": [
+    {
+     "source": "Expedia.com",
+     "num_guests": 2,
+     "rate_per_night": {
+      "lowest": "US$ 149",
+      "extracted_lowest": 149
+     }
+    }
+   ],
+   "nearby_places": [
+    {
+     "name": "Palermo",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "7 min"
+      }
+     ]
+    },
+    {
+     "name": "Aeroparque Internacional Jorge Newbery",
+     "transportations": [
+      {
+       "type": "Public transport",
+       "duration": "12 min"
+      },
+      {
+       "type": "Taxi",
+       "duration": "20 min"
+      }
+     ]
+    },
+    {
+     "name": "El Preferido de Palermo",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "7 min"
+      }
+     ]
+    }
+   ],
+   "overall_rating": 4.9170213,
+   "reviews": 94,
+   "location_rating": 4.4,
+   "amenities": [
+    "Aire acondicionado",
+    "Balcón",
+    "Ascensor",
+    "Calefacción",
+    "Tabla de planchar",
+    "Cocina",
+    "Microondas",
+    "Parrilla al aire libre",
+    "Cocina con hornilla y horno",
+    "Patio",
+    "Libre de humos",
+    "Televisión por cable",
+    "Lavadora",
+    "Wi‑Fi gratis"
+   ],
+   "excluded_amenities": [
+    "No hay piscina cubierta",
+    "No hay piscina exterior",
+    "No se admiten mascotas",
+    "No hay aparcamiento"
+   ],
+   "health_and_safety": {
+    "groups": [
+     {
+      "title": "Minimized contact",
+      "list": [
+       {
+        "title": "No-contact check-in and check-out",
+        "available": true
+       }
+      ]
+     }
+    ]
+   },
+   "essential_info": [
+    "Todo el apartamento",
+    "Capacidad para 2",
+    "1 dormitorio",
+    "1 baño",
+    "1 cama",
+    "62 m²"
+   ],
+   "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkQ1sz8hM29icA1Gg0vZy8xMXZwZ25jM2ZiEAI",
+   "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkQ1sz8hM29icA1Gg0vZy8xMXZwZ25jM2ZiEAI"
+  },
+  {
+   "type": "hotel",
+   "name": "Palermo Suites Buenos Aires Hotel & Apartments",
+   "description": "Hotel selecto con bañera de hidromasaje, solárium y desayuno gratuito en un bar chic con zona de comedor.",
+   "link": "http://www.palermosuites.net/",
+   "property_token": "ChgI-vCp8Ort_tiiARoLL2cvMXRqMzQ5bl8QAQ",
+   "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-10-10&check_out_date=2026-10-13&children=0&currency=USD&engine=google_hotels&gl=ar&hl=es&property_token=ChgI-vCp8Ort_tiiARoLL2cvMXRqMzQ5bl8QAQ&q=Hotels+in+Palermo%2C+Buenos+Aires",
+   "gps_coordinates": {
+    "latitude": -34.5788921,
+    "longitude": -58.42388509999999
+   },
+   "rate_per_night": {
+    "lowest": "US$ 97",
+    "extracted_lowest": 97,
+    "before_taxes_fees": "US$ 95",
+    "extracted_before_taxes_fees": 95
+   },
+   "total_rate": {
+    "lowest": "US$ 290",
+    "extracted_lowest": 290,
+    "before_taxes_fees": "US$ 284",
+    "extracted_before_taxes_fees": 284
+   },
+   "deal": "27% menos de lo habitual",
+   "deal_description": "Great Deal",
+   "nearby_places": [
+    {
+     "name": "Museo de Arte Latinoamericano de Buenos Aires",
+     "transportations": [
+      {
+       "type": "Taxi",
+       "duration": "9 min"
+      }
+     ]
+    },
+    {
+     "name": "Oro",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "1 min"
+      }
+     ]
+    },
+    {
+     "name": "Aeroparque Internacional Jorge Newbery",
+     "transportations": [
+      {
+       "type": "Public transport",
+       "duration": "11 min"
+      },
+      {
+       "type": "Taxi",
+       "duration": "19 min"
+      }
+     ]
+    },
+    {
+     "name": "Paxapoga Cangas del Narcea",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "3 min"
+      }
+     ]
+    }
+   ],
+   "hotel_class": "Hotel de 4 estrellas",
+   "extracted_hotel_class": 4,
+   "overall_rating": 4.3,
+   "reviews": 854,
+   "ratings": [
+    {
+     "stars": 5,
+     "count": 443
+    },
+    {
+     "stars": 4,
+     "count": 270
+    },
+    {
+     "stars": 3,
+     "count": 104
+    },
+    {
+     "stars": 2,
+     "count": 13
+    },
+    {
+     "stars": 1,
+     "count": 24
+    }
+   ],
+   "location_rating": 4.5,
+   "reviews_breakdown": [
+    {
+     "name": "Ubicación",
+     "description": "Location",
+     "total_mentioned": 7,
+     "positive": 5,
+     "negative": 0,
+     "neutral": 2,
+     "category_token": "9CWruHica1yRnFiSmp5fVDl5hU8-kJ2Zn8ewKjQpMzkxOfPw5jwA6nQOOg",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=9CWruHica1yRnFiSmp5fVDl5hU8-kJ2Zn8ewKjQpMzkxOfPw5jwA6nQOOg&engine=google_hotels_reviews&hl=en&property_token=ChgI-vCp8Ort_tiiARoLL2cvMXRqMzQ5bl8QAQ"
+    },
+    {
+     "name": "Limpieza",
+     "description": "Cleanliness",
+     "total_mentioned": 6,
+     "positive": 4,
+     "negative": 2,
+     "neutral": 0,
+     "category_token": "9YiVznica1yRnFiSmp5fVDl5tXNOamJeTmZeanExwwqfzNyCzNSqRAD3zQ4a",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=9YiVznica1yRnFiSmp5fVDl5tXNOamJeTmZeanExwwqfzNyCzNSqRAD3zQ4a&engine=google_hotels_reviews&hl=en&property_token=ChgI-vCp8Ort_tiiARoLL2cvMXRqMzQ5bl8QAQ"
+    },
+    {
+     "name": "Propiedad",
+     "description": "Property",
+     "total_mentioned": 6,
+     "positive": 4,
+     "negative": 1,
+     "neutral": 1,
+     "category_token": "E9HH6Xica1yRnFiSmp5fVDl5RUBRfkFqUUklw0oQKzM1JTEFAN6pDWk",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=E9HH6Xica1yRnFiSmp5fVDl5RUBRfkFqUUklw0oQKzM1JTEFAN6pDWk&engine=google_hotels_reviews&hl=en&property_token=ChgI-vCp8Ort_tiiARoLL2cvMXRqMzQ5bl8QAQ"
+    }
+   ],
+   "amenities": [
+    "Air conditioning",
+    "Kid-friendly"
+   ],
+   "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChgI-vCp8Ort_tiiARoLL2cvMXRqMzQ5bl8QAQ",
+   "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChgI-vCp8Ort_tiiARoLL2cvMXRqMzQ5bl8QAQ"
+  },
+  {
+   "type": "hotel",
+   "name": "Hotel Arenales",
+   "description": "Hotel lujoso de estilo contemporáneo con Wi‑Fi gratis y un amplio café‑bar.",
+   "link": "http://hotelarenales.com.ar/",
+   "property_token": "ChcIzt73rJzh9cJyGgsvZy8xdGY4MnN5cBAB",
+   "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-10-10&check_out_date=2026-10-13&children=0&currency=USD&engine=google_hotels&gl=ar&hl=es&property_token=ChcIzt73rJzh9cJyGgsvZy8xdGY4MnN5cBAB&q=Hotels+in+Palermo%2C+Buenos+Aires",
+   "gps_coordinates": {
+    "latitude": -34.5904865,
+    "longitude": -58.4069206
+   },
+   "check_in_time": "15:00",
+   "check_out_time": "12:00",
+   "rate_per_night": {
+    "lowest": "US$ 101",
+    "extracted_lowest": 101,
+    "before_taxes_fees": "US$ 83",
+    "extracted_before_taxes_fees": 83
+   },
+   "total_rate": {
+    "lowest": "US$ 303",
+    "extracted_lowest": 303,
+    "before_taxes_fees": "US$ 249",
+    "extracted_before_taxes_fees": 249
+   },
+   "nearby_places": [
+    {
+     "name": "El Ateneo",
+     "transportations": [
+      {
+       "type": "Taxi",
+       "duration": "5 min"
+      },
+      {
+       "type": "Public transport",
+       "duration": "8 min"
+      }
+     ]
+    },
+    {
+     "name": "Avenida Santa Fe Y Gallo (152)",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "3 min"
+      }
+     ]
+    },
+    {
+     "name": "Aeroparque Internacional Jorge Newbery",
+     "transportations": [
+      {
+       "type": "Public transport",
+       "duration": "22 min"
+      },
+      {
+       "type": "Taxi",
+       "duration": "27 min"
+      }
+     ]
+    },
+    {
+     "name": "La Aguada",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "4 min"
+      }
+     ]
+    }
+   ],
+   "hotel_class": "Hotel de 4 estrellas",
+   "extracted_hotel_class": 4,
+   "overall_rating": 4.1,
+   "reviews": 762,
+   "ratings": [
+    {
+     "stars": 5,
+     "count": 371
+    },
+    {
+     "stars": 4,
+     "count": 238
+    },
+    {
+     "stars": 3,
+     "count": 80
+    },
+    {
+     "stars": 2,
+     "count": 27
+    },
+    {
+     "stars": 1,
+     "count": 46
+    }
+   ],
+   "location_rating": 4.1,
+   "reviews_breakdown": [
+    {
+     "name": "Propiedad",
+     "description": "Property",
+     "total_mentioned": 14,
+     "positive": 10,
+     "negative": 3,
+     "neutral": 1,
+     "category_token": "CaF1zXica1yRnFiSmp5fVDl5RUBRfkFqUUkl40oQKzM1JTEFAN60DWo",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=CaF1zXica1yRnFiSmp5fVDl5RUBRfkFqUUkl40oQKzM1JTEFAN60DWo&engine=google_hotels_reviews&hl=en&property_token=ChcIzt73rJzh9cJyGgsvZy8xdGY4MnN5cBAB"
+    },
+    {
+     "name": "Servicio",
+     "description": "Service",
+     "total_mentioned": 11,
+     "positive": 10,
+     "negative": 1,
+     "neutral": 0,
+     "category_token": "42y933ica1yRnFiSmp5fVDl5eXBqUVlmcirjCggjMx8AwgsMgA",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=42y933ica1yRnFiSmp5fVDl5eXBqUVlmcirjCggjMx8AwgsMgA&engine=google_hotels_reviews&hl=en&property_token=ChcIzt73rJzh9cJyGgsvZy8xdGY4MnN5cBAB"
+    },
+    {
+     "name": "Lugares Para Desayunar",
+     "description": "Breakfast",
+     "total_mentioned": 6,
+     "positive": 6,
+     "negative": 0,
+     "neutral": 0,
+     "category_token": "0HMJUXica1yRnFiSmp5fVDl5pVNRamJ2WmJxCcM2n9L0xKLUYoWAxKJEBZfU4sTK0rzEIgC2_BJQ",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=0HMJUXica1yRnFiSmp5fVDl5pVNRamJ2WmJxCcM2n9L0xKLUYoWAxKJEBZfU4sTK0rzEIgC2_BJQ&engine=google_hotels_reviews&hl=en&property_token=ChcIzt73rJzh9cJyGgsvZy8xdGY4MnN5cBAB"
+    },
+    {
+     "name": "Ubicación",
+     "description": "Location",
+     "total_mentioned": 5,
+     "positive": 5,
+     "negative": 0,
+     "neutral": 0,
+     "category_token": "9CWruHica1yRnFiSmp5fVDl5hU8-kJ2Zn8ewKjQpMzkxOfPw5jwA6nQOOg",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=9CWruHica1yRnFiSmp5fVDl5hU8-kJ2Zn8ewKjQpMzkxOfPw5jwA6nQOOg&engine=google_hotels_reviews&hl=en&property_token=ChcIzt73rJzh9cJyGgsvZy8xdGY4MnN5cBAB"
+    }
+   ],
+   "amenities": [
+    "Free breakfast",
+    "Free Wi-Fi",
+    "Air conditioning",
+    "Restaurant",
+    "Room service",
+    "Airport shuttle",
+    "Full-service laundry",
+    "Accessible",
+    "Kid-friendly",
+    "Smoke-free property"
+   ],
+   "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChcIzt73rJzh9cJyGgsvZy8xdGY4MnN5cBAB",
+   "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChcIzt73rJzh9cJyGgsvZy8xdGY4MnN5cBAB"
+  },
+  {
+   "type": "hotel",
+   "name": "Cristóforo Colombo",
+   "description": "Hotel informal con habitaciones básicas, restaurante, piscina exterior y spa.",
+   "link": "https://hotelcristoforocolombo.net/",
+   "property_token": "ChcI0qGnqd3K788WGgsvZy8xdG1xbXpmNBAB",
+   "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-10-10&check_out_date=2026-10-13&children=0&currency=USD&engine=google_hotels&gl=ar&hl=es&property_token=ChcI0qGnqd3K788WGgsvZy8xdG1xbXpmNBAB&q=Hotels+in+Palermo%2C+Buenos+Aires",
+   "gps_coordinates": {
+    "latitude": -34.5767483,
+    "longitude": -58.4218805
+   },
+   "rate_per_night": {
+    "lowest": "US$ 63",
+    "extracted_lowest": 63,
+    "before_taxes_fees": "US$ 60",
+    "extracted_before_taxes_fees": 60
+   },
+   "total_rate": {
+    "lowest": "US$ 189",
+    "extracted_lowest": 189,
+    "before_taxes_fees": "US$ 181",
+    "extracted_before_taxes_fees": 181
+   },
+   "nearby_places": [
+    {
+     "name": "Museo de Arte Latinoamericano de Buenos Aires",
+     "transportations": [
+      {
+       "type": "Taxi",
+       "duration": "9 min"
+      }
+     ]
+    },
+    {
+     "name": "Palermo",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "10 min"
+      }
+     ]
+    },
+    {
+     "name": "Aeroparque Internacional Jorge Newbery",
+     "transportations": [
+      {
+       "type": "Public transport",
+       "duration": "11 min"
+      },
+      {
+       "type": "Taxi",
+       "duration": "20 min"
+      }
+     ]
+    },
+    {
+     "name": "Juana de Oro",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "3 min"
+      }
+     ]
+    }
+   ],
+   "hotel_class": "Hotel de 4 estrellas",
+   "extracted_hotel_class": 4,
+   "overall_rating": 3.3,
+   "reviews": 5071,
+   "ratings": [
+    {
+     "stars": 5,
+     "count": 1358
+    },
+    {
+     "stars": 4,
+     "count": 1146
+    },
+    {
+     "stars": 3,
+     "count": 1177
+    },
+    {
+     "stars": 2,
+     "count": 646
+    },
+    {
+     "stars": 1,
+     "count": 744
+    }
+   ],
+   "location_rating": 4.4,
+   "reviews_breakdown": [
+    {
+     "name": "Baño",
+     "description": "Bathroom and toiletries",
+     "total_mentioned": 8,
+     "positive": 0,
+     "negative": 8,
+     "neutral": 0,
+     "category_token": "oORAOHica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmoxw1KnxMMb8wGFcRHw",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=oORAOHica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmoxw1KnxMMb8wGFcRHw&engine=google_hotels_reviews&hl=en&property_token=ChcI0qGnqd3K788WGgsvZy8xdG1xbXpmNBAB"
+    },
+    {
+     "name": "Servicio",
+     "description": "Service",
+     "total_mentioned": 16,
+     "positive": 6,
+     "negative": 7,
+     "neutral": 3,
+     "category_token": "2LRTC3ica1yRnFiSmp5fVDl5eXBqUVlmcirDCggjMx8AwgEMfw",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=2LRTC3ica1yRnFiSmp5fVDl5eXBqUVlmcirDCggjMx8AwgEMfw&engine=google_hotels_reviews&hl=en&property_token=ChcI0qGnqd3K788WGgsvZy8xdG1xbXpmNBAB"
+    },
+    {
+     "name": "Accesibilidad",
+     "description": "Accessibility",
+     "total_mentioned": 5,
+     "positive": 1,
+     "negative": 4,
+     "neutral": 0,
+     "category_token": "S5eCVnica1yRnFiSmp5fVDl5rWNycmpxcWZSZk5mSSUDhAvmpSSmAABlKhDO",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=S5eCVnica1yRnFiSmp5fVDl5rWNycmpxcWZSZk5mSSUDhAvmpSSmAABlKhDO&engine=google_hotels_reviews&hl=en&property_token=ChcI0qGnqd3K788WGgsvZy8xdG1xbXpmNBAB"
+    },
+    {
+     "name": "Propiedad",
+     "description": "Property",
+     "total_mentioned": 18,
+     "positive": 2,
+     "negative": 15,
+     "neutral": 1,
+     "category_token": "1u0uzHica1yRnFiSmp5fVDl5RUBRfkFqUUkl00oQKzM1JTEFAN6_DWs",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=1u0uzHica1yRnFiSmp5fVDl5RUBRfkFqUUkl00oQKzM1JTEFAN6_DWs&engine=google_hotels_reviews&hl=en&property_token=ChcI0qGnqd3K788WGgsvZy8xdG1xbXpmNBAB"
+    },
+    {
+     "name": "Tranquilidad Para Dormir",
+     "description": "Sleep",
+     "total_mentioned": 7,
+     "positive": 0,
+     "negative": 7,
+     "neutral": 0,
+     "category_token": "u4_ZqXica1yRnFiSmp5fVDl5aXBOamoBw46QosS8wtLMnMyUxBSFgMSiRAWX_KLczCIAlOkRhA",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=u4_ZqXica1yRnFiSmp5fVDl5aXBOamoBw46QosS8wtLMnMyUxBSFgMSiRAWX_KLczCIAlOkRhA&engine=google_hotels_reviews&hl=en&property_token=ChcI0qGnqd3K788WGgsvZy8xdG1xbXpmNBAB"
+    },
+    {
+     "name": "Limpieza",
+     "description": "Cleanliness",
+     "total_mentioned": 11,
+     "positive": 3,
+     "negative": 7,
+     "neutral": 1,
+     "category_token": "AjL-43ica1yRnFiSmp5fVDl5tXNOamJeTmZeanEx0wqfzNyCzNSqRAD34Q4c",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=AjL-43ica1yRnFiSmp5fVDl5tXNOamJeTmZeanEx0wqfzNyCzNSqRAD34Q4c&engine=google_hotels_reviews&hl=en&property_token=ChcI0qGnqd3K788WGgsvZy8xdG1xbXpmNBAB"
+    }
+   ],
+   "amenities": [
+    "Breakfast",
+    "Air conditioning",
+    "Pet-friendly",
+    "Airport shuttle",
+    "Kid-friendly"
+   ],
+   "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChcI0qGnqd3K788WGgsvZy8xdG1xbXpmNBAB",
+   "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChcI0qGnqd3K788WGgsvZy8xdG1xbXpmNBAB"
+  },
+  {
+   "type": "vacation rental",
+   "name": "Palermo Top Apartment - Re Styling",
+   "link": "https://www.bluepillow.es/search/65c9db83671b07d23c67b232?dest=bkng&cat=Apartment&lat=-34.58128&lng=-58.44219&language=es",
+   "property_token": "ChoQxPWg9NmA68TOARoNL2cvMTFudmJmN2hschAC",
+   "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-10-10&check_out_date=2026-10-13&children=0&currency=USD&engine=google_hotels&gl=ar&hl=es&property_token=ChoQxPWg9NmA68TOARoNL2cvMTFudmJmN2hschAC&q=Hotels+in+Palermo%2C+Buenos+Aires",
+   "gps_coordinates": {
+    "latitude": -34.58127975463867,
+    "longitude": -58.44218826293945
+   },
+   "check_in_time": "15:00",
+   "check_out_time": "10:00",
+   "rate_per_night": {
+    "lowest": "US$ 72",
+    "extracted_lowest": 72,
+    "before_taxes_fees": "US$ 60",
+    "extracted_before_taxes_fees": 60
+   },
+   "total_rate": {
+    "lowest": "US$ 216",
+    "extracted_lowest": 216,
+    "before_taxes_fees": "US$ 180",
+    "extracted_before_taxes_fees": 180
+   },
+   "prices": [
+    {
+     "source": "Bluepillow.com",
+     "num_guests": 2,
+     "rate_per_night": {
+      "lowest": "US$ 72",
+      "extracted_lowest": 72,
+      "before_taxes_fees": "US$ 60",
+      "extracted_before_taxes_fees": 60
+     },
+     "free_cancellation": true,
+     "free_cancellation_until_date": "14 jun",
+     "free_cancellation_until_time": "21:00"
+    }
+   ],
+   "overall_rating": 5,
+   "reviews": 8,
+   "amenities": [
+    "Aire acondicionado",
+    "Tabla de planchar",
+    "Cocina",
+    "Piscina exterior",
+    "Libre de humos",
+    "Televisión por cable",
+    "Lavadora",
+    "Accesibilidad para sillas de ruedas"
+   ],
+   "excluded_amenities": [
+    "No hay servicio de traslado al aeropuerto",
+    "No hay piscina cubierta",
+    "No hay Wi‑Fi"
+   ],
+   "essential_info": [
+    "Todo el apartamento",
+    "Capacidad para 2",
+    "1 dormitorio",
+    "1 baño",
+    "1 cama"
+   ],
+   "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoQxPWg9NmA68TOARoNL2cvMTFudmJmN2hschAC",
+   "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoQxPWg9NmA68TOARoNL2cvMTFudmJmN2hschAC"
+  },
+  {
+   "type": "hotel",
+   "name": "Dazzler by Wyndham Buenos Aires Polo",
+   "description": "Hotel chic con habitaciones y suites con encanto, desayuno gratuito, gimnasio y piscina en la azotea.",
+   "link": "https://dazzlerpolo.com/?utm_source=google&utm_medium=local&utm_campaign=gmb",
+   "property_token": "ChkIwqjbs4ePpo9KGg0vZy8xMWJ3MmZxdmh0EAE",
+   "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-10-10&check_out_date=2026-10-13&children=0&currency=USD&engine=google_hotels&gl=ar&hl=es&property_token=ChkIwqjbs4ePpo9KGg0vZy8xMWJ3MmZxdmh0EAE&q=Hotels+in+Palermo%2C+Buenos+Aires",
+   "gps_coordinates": {
+    "latitude": -34.576111499999996,
+    "longitude": -58.42402129999999
+   },
+   "check_in_time": "14:00",
+   "check_out_time": "11:00",
+   "rate_per_night": {
+    "lowest": "US$ 127",
+    "extracted_lowest": 127,
+    "before_taxes_fees": "US$ 127",
+    "extracted_before_taxes_fees": 127
+   },
+   "total_rate": {
+    "lowest": "US$ 382",
+    "extracted_lowest": 382,
+    "before_taxes_fees": "US$ 380",
+    "extracted_before_taxes_fees": 380
+   },
+   "deal": "20% menos de lo habitual",
+   "deal_description": "Deal",
+   "nearby_places": [
+    {
+     "name": "Museo de Arte Latinoamericano de Buenos Aires",
+     "transportations": [
+      {
+       "type": "Taxi",
+       "duration": "9 min"
+      }
+     ]
+    },
+    {
+     "name": "Palermo",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "6 min"
+      }
+     ]
+    },
+    {
+     "name": "Aeroparque Internacional Jorge Newbery",
+     "transportations": [
+      {
+       "type": "Public transport",
+       "duration": "7 min"
+      },
+      {
+       "type": "Taxi",
+       "duration": "18 min"
+      }
+     ]
+    },
+    {
+     "name": "La Cátedra Restaurante",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "2 min"
+      }
+     ]
+    }
+   ],
+   "hotel_class": "Hotel de 4 estrellas",
+   "extracted_hotel_class": 4,
+   "overall_rating": 4.5,
+   "reviews": 2440,
+   "ratings": [
+    {
+     "stars": 5,
+     "count": 1619
+    },
+    {
+     "stars": 4,
+     "count": 628
+    },
+    {
+     "stars": 3,
+     "count": 116
+    },
+    {
+     "stars": 2,
+     "count": 28
+    },
+    {
+     "stars": 1,
+     "count": 49
+    }
+   ],
+   "location_rating": 4.4,
+   "reviews_breakdown": [
+    {
+     "name": "Propiedad",
+     "description": "Property",
+     "total_mentioned": 58,
+     "positive": 49,
+     "negative": 5,
+     "neutral": 4,
+     "category_token": "CaF1zXica1yRnFiSmp5fVDl5RUBRfkFqUUkl40oQKzM1JTEFAN60DWo",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=CaF1zXica1yRnFiSmp5fVDl5RUBRfkFqUUkl40oQKzM1JTEFAN60DWo&engine=google_hotels_reviews&hl=en&property_token=ChkIwqjbs4ePpo9KGg0vZy8xMWJ3MmZxdmh0EAE"
+    },
+    {
+     "name": "Servicio",
+     "description": "Service",
+     "total_mentioned": 32,
+     "positive": 26,
+     "negative": 6,
+     "neutral": 0,
+     "category_token": "42y933ica1yRnFiSmp5fVDl5eXBqUVlmcirjCggjMx8AwgsMgA",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=42y933ica1yRnFiSmp5fVDl5eXBqUVlmcirjCggjMx8AwgsMgA&engine=google_hotels_reviews&hl=en&property_token=ChkIwqjbs4ePpo9KGg0vZy8xMWJ3MmZxdmh0EAE"
+    },
+    {
+     "name": "Ejercicio",
+     "description": "Fitness",
+     "total_mentioned": 15,
+     "positive": 7,
+     "negative": 4,
+     "neutral": 4,
+     "category_token": "ITRsInica1yRnFiSmp5fVDl5uVtmSV5qcTHDStes1KLkzOTMfADOTgzU",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=ITRsInica1yRnFiSmp5fVDl5uVtmSV5qcTHDStes1KLkzOTMfADOTgzU&engine=google_hotels_reviews&hl=en&property_token=ChkIwqjbs4ePpo9KGg0vZy8xMWJ3MmZxdmh0EAE"
+    },
+    {
+     "name": "Lugares Para Desayunar",
+     "description": "Breakfast",
+     "total_mentioned": 27,
+     "positive": 23,
+     "negative": 3,
+     "neutral": 1,
+     "category_token": "0KtIQ3ica1yRnFiSmp5fVDl5pVNRamJ2WmJxCeM2n9L0xKLUYoWAxKJEBZfU4sTK0rzEIgC3FBJR",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=0KtIQ3ica1yRnFiSmp5fVDl5pVNRamJ2WmJxCeM2n9L0xKLUYoWAxKJEBZfU4sTK0rzEIgC3FBJR&engine=google_hotels_reviews&hl=en&property_token=ChkIwqjbs4ePpo9KGg0vZy8xMWJ3MmZxdmh0EAE"
+    },
+    {
+     "name": "Habitación",
+     "description": "Room amenities",
+     "total_mentioned": 18,
+     "positive": 14,
+     "negative": 3,
+     "neutral": 1,
+     "category_token": "P9dJX3ica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmox42qPxKTMksTkzMOb8wBSshDq",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=P9dJX3ica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmox42qPxKTMksTkzMOb8wBSshDq&engine=google_hotels_reviews&hl=en&property_token=ChkIwqjbs4ePpo9KGg0vZy8xMWJ3MmZxdmh0EAE"
+    },
+    {
+     "name": "Ambiente",
+     "description": "Atmosphere",
+     "total_mentioned": 19,
+     "positive": 18,
+     "negative": 0,
+     "neutral": 1,
+     "category_token": "SjdJ73ica1yRnFiSmp5fVDl5lWNJbn5xQUZqUSrjCsfcpMzUvJJUAOpoDas",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=SjdJ73ica1yRnFiSmp5fVDl5lWNJbn5xQUZqUSrjCsfcpMzUvJJUAOpoDas&engine=google_hotels_reviews&hl=en&property_token=ChkIwqjbs4ePpo9KGg0vZy8xMWJ3MmZxdmh0EAE"
+    }
+   ],
+   "amenities": [
+    "Free breakfast",
+    "Free Wi-Fi",
+    "Parking",
+    "Outdoor pool",
+    "Air conditioning",
+    "Fitness center",
+    "Restaurant",
+    "Room service",
+    "Airport shuttle",
+    "Full-service laundry",
+    "Accessible",
+    "Kid-friendly"
+   ],
+   "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkIwqjbs4ePpo9KGg0vZy8xMWJ3MmZxdmh0EAE",
+   "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkIwqjbs4ePpo9KGg0vZy8xMWJ3MmZxdmh0EAE"
+  },
+  {
+   "type": "hotel",
+   "name": "Ayres Apartments Palermo",
+   "link": "https://palermo.ayresapartments.com/",
+   "property_token": "ChkI1Oz18sSk1vEaGg0vZy8xMWo4bTFzYmxrEAE",
+   "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-10-10&check_out_date=2026-10-13&children=0&currency=USD&engine=google_hotels&gl=ar&hl=es&property_token=ChkI1Oz18sSk1vEaGg0vZy8xMWo4bTFzYmxrEAE&q=Hotels+in+Palermo%2C+Buenos+Aires",
+   "gps_coordinates": {
+    "latitude": -34.5829303,
+    "longitude": -58.4237345
+   },
+   "check_in_time": "14:00",
+   "check_out_time": "11:00",
+   "rate_per_night": {
+    "lowest": "US$ 56",
+    "extracted_lowest": 56,
+    "before_taxes_fees": "US$ 53",
+    "extracted_before_taxes_fees": 53
+   },
+   "total_rate": {
+    "lowest": "US$ 168",
+    "extracted_lowest": 168,
+    "before_taxes_fees": "US$ 159",
+    "extracted_before_taxes_fees": 159
+   },
+   "deal": "38% menos de lo habitual",
+   "deal_description": "Great Deal",
+   "nearby_places": [
+    {
+     "name": "Jardín Botánico Carlos Thays",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "8 min"
+      }
+     ]
+    },
+    {
+     "name": "Ministro Carranza",
+     "transportations": [
+      {
+       "type": "Taxi",
+       "duration": "8 min"
+      }
+     ]
+    },
+    {
+     "name": "Aeroparque Internacional Jorge Newbery",
+     "transportations": [
+      {
+       "type": "Public transport",
+       "duration": "15 min"
+      },
+      {
+       "type": "Taxi",
+       "duration": "21 min"
+      }
+     ]
+    },
+    {
+     "name": "El Pingüino de Palermo",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "4 min"
+      }
+     ]
+    }
+   ],
+   "overall_rating": 4.1,
+   "reviews": 243,
+   "ratings": [
+    {
+     "stars": 5,
+     "count": 141
+    },
+    {
+     "stars": 4,
+     "count": 49
+    },
+    {
+     "stars": 3,
+     "count": 16
+    },
+    {
+     "stars": 2,
+     "count": 9
+    },
+    {
+     "stars": 1,
+     "count": 28
+    }
+   ],
+   "location_rating": 4.5,
+   "reviews_breakdown": [
+    {
+     "name": "Propiedad",
+     "description": "Property",
+     "total_mentioned": 5,
+     "positive": 2,
+     "negative": 2,
+     "neutral": 1,
+     "category_token": "E9HH6Xica1yRnFiSmp5fVDl5RUBRfkFqUUklw0oQKzM1JTEFAN6pDWk",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=E9HH6Xica1yRnFiSmp5fVDl5RUBRfkFqUUklw0oQKzM1JTEFAN6pDWk&engine=google_hotels_reviews&hl=en&property_token=ChkI1Oz18sSk1vEaGg0vZy8xMWo4bTFzYmxrEAE"
+    }
+   ],
+   "amenities": [
+    "Breakfast ($)",
+    "Free Wi-Fi",
+    "Outdoor pool",
+    "Air conditioning",
+    "Kitchen",
+    "Airport shuttle",
+    "Accessible",
+    "Smoke-free property"
+   ],
+   "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkI1Oz18sSk1vEaGg0vZy8xMWo4bTFzYmxrEAE",
+   "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkI1Oz18sSk1vEaGg0vZy8xMWo4bTFzYmxrEAE"
+  },
+  {
+   "type": "vacation rental",
+   "name": "Luxury Apartments In Palermo - by BueRentals",
+   "property_token": "ChoQoO3ivpWY4Z-SARoNL2cvMTF6aDR4M25nehAC",
+   "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-10-10&check_out_date=2026-10-13&children=0&currency=USD&engine=google_hotels&gl=ar&hl=es&property_token=ChoQoO3ivpWY4Z-SARoNL2cvMTF6aDR4M25nehAC&q=Hotels+in+Palermo%2C+Buenos+Aires",
+   "gps_coordinates": {
+    "latitude": -34.59014892578125,
+    "longitude": -58.43614959716797
+   },
+   "check_in_time": "13:00",
+   "check_out_time": "11:00",
+   "rate_per_night": {
+    "lowest": "US$ 93",
+    "extracted_lowest": 93,
+    "before_taxes_fees": "US$ 93",
+    "extracted_before_taxes_fees": 93
+   },
+   "total_rate": {
+    "lowest": "US$ 280",
+    "extracted_lowest": 280,
+    "before_taxes_fees": "US$ 280",
+    "extracted_before_taxes_fees": 280
+   },
+   "prices": [
+    {
+     "source": "Hotels.com",
+     "num_guests": 2,
+     "rate_per_night": {
+      "lowest": "US$ 102",
+      "extracted_lowest": 102,
+      "before_taxes_fees": "US$ 99",
+      "extracted_before_taxes_fees": 99
+     }
+    }
+   ],
+   "overall_rating": 4.8119054,
+   "reviews": 189,
+   "amenities": [
+    "Aire acondicionado",
+    "Traslado del/al aeropuerto",
+    "Adecuado para niños",
+    "Ascensor",
+    "Calefacción",
+    "Tabla de planchar",
+    "Cocina",
+    "Microondas",
+    "Cocina con hornilla y horno",
+    "Libre de humos",
+    "Televisión por cable",
+    "Lavadora",
+    "Accesibilidad para sillas de ruedas",
+    "Aparcamiento gratuito",
+    "Wi‑Fi gratis"
+   ],
+   "excluded_amenities": [
+    "No hay piscina cubierta",
+    "No hay piscina exterior",
+    "No se admiten mascotas"
+   ],
+   "health_and_safety": {
+    "groups": [
+     {
+      "title": "Enhanced cleaning",
+      "list": [
+       {
+        "title": "Enhanced cleaning of the property",
+        "available": true
+       },
+       {
+        "title": "Disinfectant used to clean the property",
+        "available": true
+       }
+      ]
+     }
+    ]
+   },
+   "essential_info": [
+    "Todo el apartamento",
+    "Capacidad para 2",
+    "1 dormitorio",
+    "2 baños",
+    "1 cama"
+   ],
+   "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoQoO3ivpWY4Z-SARoNL2cvMTF6aDR4M25nehAC",
+   "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoQoO3ivpWY4Z-SARoNL2cvMTF6aDR4M25nehAC"
+  },
+  {
+   "type": "hotel",
+   "name": "Pleno Palermo Soho",
+   "description": "Hotel moderno con habitaciones funcionales, piscina en la azotea, restaurante y desayuno gratuito.",
+   "link": "https://plenohotels.com/palermosoho/",
+   "property_token": "ChoIjID0x6ye2qvmARoNL2cvMTFiNmQ3cmhtXxAB",
+   "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-10-10&check_out_date=2026-10-13&children=0&currency=USD&engine=google_hotels&gl=ar&hl=es&property_token=ChoIjID0x6ye2qvmARoNL2cvMTFiNmQ3cmhtXxAB&q=Hotels+in+Palermo%2C+Buenos+Aires",
+   "gps_coordinates": {
+    "latitude": -34.586182,
+    "longitude": -58.424139
+   },
+   "check_in_time": "15:00",
+   "check_out_time": "12:00",
+   "rate_per_night": {
+    "lowest": "US$ 154",
+    "extracted_lowest": 154,
+    "before_taxes_fees": "US$ 125",
+    "extracted_before_taxes_fees": 125
+   },
+   "total_rate": {
+    "lowest": "US$ 462",
+    "extracted_lowest": 462,
+    "before_taxes_fees": "US$ 374",
+    "extracted_before_taxes_fees": 374
+   },
+   "deal": "24% menos de lo habitual",
+   "deal_description": "Deal",
+   "nearby_places": [
+    {
+     "name": "Parque Tres de Febrero",
+     "transportations": [
+      {
+       "type": "Taxi",
+       "duration": "10 min"
+      }
+     ]
+    },
+    {
+     "name": "Ministro Carranza",
+     "transportations": [
+      {
+       "type": "Taxi",
+       "duration": "9 min"
+      }
+     ]
+    },
+    {
+     "name": "Aeroparque Internacional Jorge Newbery",
+     "transportations": [
+      {
+       "type": "Public transport",
+       "duration": "21 min"
+      },
+      {
+       "type": "Taxi",
+       "duration": "24 min"
+      }
+     ]
+    },
+    {
+     "name": "Ciro Palermo",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "2 min"
+      }
+     ]
+    }
+   ],
+   "hotel_class": "Hotel de 4 estrellas",
+   "extracted_hotel_class": 4,
+   "overall_rating": 4.4,
+   "reviews": 985,
+   "ratings": [
+    {
+     "stars": 5,
+     "count": 591
+    },
+    {
+     "stars": 4,
+     "count": 260
+    },
+    {
+     "stars": 3,
+     "count": 68
+    },
+    {
+     "stars": 2,
+     "count": 27
+    },
+    {
+     "stars": 1,
+     "count": 39
+    }
+   ],
+   "location_rating": 4.6,
+   "reviews_breakdown": [
+    {
+     "name": "Servicio",
+     "description": "Service",
+     "total_mentioned": 43,
+     "positive": 36,
+     "negative": 6,
+     "neutral": 1,
+     "category_token": "42y933ica1yRnFiSmp5fVDl5eXBqUVlmcirjCggjMx8AwgsMgA",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=42y933ica1yRnFiSmp5fVDl5eXBqUVlmcirjCggjMx8AwgsMgA&engine=google_hotels_reviews&hl=en&property_token=ChoIjID0x6ye2qvmARoNL2cvMTFiNmQ3cmhtXxAB"
+    },
+    {
+     "name": "Propiedad",
+     "description": "Property",
+     "total_mentioned": 47,
+     "positive": 31,
+     "negative": 12,
+     "neutral": 4,
+     "category_token": "CaF1zXica1yRnFiSmp5fVDl5RUBRfkFqUUkl40oQKzM1JTEFAN60DWo",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=CaF1zXica1yRnFiSmp5fVDl5RUBRfkFqUUkl40oQKzM1JTEFAN60DWo&engine=google_hotels_reviews&hl=en&property_token=ChoIjID0x6ye2qvmARoNL2cvMTFiNmQ3cmhtXxAB"
+    },
+    {
+     "name": "Ubicación",
+     "description": "Location",
+     "total_mentioned": 39,
+     "positive": 39,
+     "negative": 0,
+     "neutral": 0,
+     "category_token": "fDeGXXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e4KjQpMzkxOfPw5jwA6oAOOw",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=fDeGXXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e4KjQpMzkxOfPw5jwA6oAOOw&engine=google_hotels_reviews&hl=en&property_token=ChoIjID0x6ye2qvmARoNL2cvMTFiNmQ3cmhtXxAB"
+    },
+    {
+     "name": "Ejercicio",
+     "description": "Fitness",
+     "total_mentioned": 16,
+     "positive": 8,
+     "negative": 4,
+     "neutral": 4,
+     "category_token": "Uz-f0Hica1yRnFiSmp5fVDl5uVtmSV5qcTHjStes1KLkzOTMfADOWQzV",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=Uz-f0Hica1yRnFiSmp5fVDl5uVtmSV5qcTHjStes1KLkzOTMfADOWQzV&engine=google_hotels_reviews&hl=en&property_token=ChoIjID0x6ye2qvmARoNL2cvMTFiNmQ3cmhtXxAB"
+    },
+    {
+     "name": "Lugares Para Desayunar",
+     "description": "Breakfast",
+     "total_mentioned": 25,
+     "positive": 21,
+     "negative": 2,
+     "neutral": 2,
+     "category_token": "0KtIQ3ica1yRnFiSmp5fVDl5pVNRamJ2WmJxCeM2n9L0xKLUYoWAxKJEBZfU4sTK0rzEIgC3FBJR",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=0KtIQ3ica1yRnFiSmp5fVDl5pVNRamJ2WmJxCeM2n9L0xKLUYoWAxKJEBZfU4sTK0rzEIgC3FBJR&engine=google_hotels_reviews&hl=en&property_token=ChoIjID0x6ye2qvmARoNL2cvMTFiNmQ3cmhtXxAB"
+    },
+    {
+     "name": "Tranquilidad Para Dormir",
+     "description": "Sleep",
+     "total_mentioned": 15,
+     "positive": 9,
+     "negative": 6,
+     "neutral": 0,
+     "category_token": "u4_ZqXica1yRnFiSmp5fVDl5aXBOamoBw46QosS8wtLMnMyUxBSFgMSiRAWX_KLczCIAlOkRhA",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=u4_ZqXica1yRnFiSmp5fVDl5aXBOamoBw46QosS8wtLMnMyUxBSFgMSiRAWX_KLczCIAlOkRhA&engine=google_hotels_reviews&hl=en&property_token=ChoIjID0x6ye2qvmARoNL2cvMTFiNmQ3cmhtXxAB"
+    }
+   ],
+   "amenities": [
+    "Breakfast",
+    "Free Wi-Fi",
+    "Outdoor pool",
+    "Hot tub",
+    "Air conditioning",
+    "Pet-friendly",
+    "Fitness center",
+    "Spa",
+    "Bar",
+    "Restaurant",
+    "Room service",
+    "Airport shuttle",
+    "Full-service laundry",
+    "Accessible",
+    "Business center",
+    "Kid-friendly",
+    "Smoke-free property"
+   ],
+   "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoIjID0x6ye2qvmARoNL2cvMTFiNmQ3cmhtXxAB",
+   "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoIjID0x6ye2qvmARoNL2cvMTFiNmQ3cmhtXxAB"
+  },
+  {
+   "type": "hotel",
+   "name": "Awwa Suites & Spa",
+   "description": "Hotel de alta gama con suites modernas, restaurante refinado, spa y piscina exterior.",
+   "link": "https://www.awwasuites.com/",
+   "property_token": "ChcIsca1pqST47UpGgsvZy8xdGs2cmhrYhAB",
+   "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-10-10&check_out_date=2026-10-13&children=0&currency=USD&engine=google_hotels&gl=ar&hl=es&property_token=ChcIsca1pqST47UpGgsvZy8xdGs2cmhrYhAB&q=Hotels+in+Palermo%2C+Buenos+Aires",
+   "gps_coordinates": {
+    "latitude": -34.576933,
+    "longitude": -58.4122997
+   },
+   "check_in_time": "15:00",
+   "check_out_time": "12:00",
+   "rate_per_night": {
+    "lowest": "US$ 118",
+    "extracted_lowest": 118,
+    "before_taxes_fees": "US$ 98",
+    "extracted_before_taxes_fees": 98
+   },
+   "total_rate": {
+    "lowest": "US$ 355",
+    "extracted_lowest": 355,
+    "before_taxes_fees": "US$ 293",
+    "extracted_before_taxes_fees": 293
+   },
+   "nearby_places": [
+    {
+     "name": "Jardín Japonés",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "6 min"
+      }
+     ]
+    },
+    {
+     "name": "Palermo",
+     "transportations": [
+      {
+       "type": "Taxi",
+       "duration": "10 min"
+      }
+     ]
+    },
+    {
+     "name": "Aeroparque Internacional Jorge Newbery",
+     "transportations": [
+      {
+       "type": "Public transport",
+       "duration": "9 min"
+      },
+      {
+       "type": "Taxi",
+       "duration": "18 min"
+      }
+     ]
+    },
+    {
+     "name": "Trattoria Olivetti",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "5 min"
+      }
+     ]
+    }
+   ],
+   "hotel_class": "Hotel de 4 estrellas",
+   "extracted_hotel_class": 4,
+   "overall_rating": 4.3,
+   "reviews": 1443,
+   "ratings": [
+    {
+     "stars": 5,
+     "count": 812
+    },
+    {
+     "stars": 4,
+     "count": 399
+    },
+    {
+     "stars": 3,
+     "count": 125
+    },
+    {
+     "stars": 2,
+     "count": 37
+    },
+    {
+     "stars": 1,
+     "count": 70
+    }
+   ],
+   "location_rating": 4.3,
+   "reviews_breakdown": [
+    {
+     "name": "Bienestar",
+     "description": "Wellness",
+     "total_mentioned": 12,
+     "positive": 9,
+     "negative": 3,
+     "neutral": 0,
+     "category_token": "3zi8xnica1yRnFiSmp5fVDl5RXhqTk5eanEx40qnzFQgoySxCADcog1X",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=3zi8xnica1yRnFiSmp5fVDl5RXhqTk5eanEx40qnzFQgoySxCADcog1X&engine=google_hotels_reviews&hl=en&property_token=ChcIsca1pqST47UpGgsvZy8xdGs2cmhrYhAB"
+    },
+    {
+     "name": "Spa",
+     "description": "Spa",
+     "total_mentioned": 9,
+     "positive": 7,
+     "negative": 2,
+     "neutral": 0,
+     "category_token": "0CBn_Hica1yRnFiSmp5fVDl5cXBBIgOIAABfLwip",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=0CBn_Hica1yRnFiSmp5fVDl5cXBBIgOIAABfLwip&engine=google_hotels_reviews&hl=en&property_token=ChcIsca1pqST47UpGgsvZy8xdGs2cmhrYhAB"
+    },
+    {
+     "name": "Ejercicio",
+     "description": "Fitness",
+     "total_mentioned": 14,
+     "positive": 10,
+     "negative": 4,
+     "neutral": 0,
+     "category_token": "ITRsInica1yRnFiSmp5fVDl5uVtmSV5qcTHDStes1KLkzOTMfADOTgzU",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=ITRsInica1yRnFiSmp5fVDl5uVtmSV5qcTHDStes1KLkzOTMfADOTgzU&engine=google_hotels_reviews&hl=en&property_token=ChcIsca1pqST47UpGgsvZy8xdGs2cmhrYhAB"
+    },
+    {
+     "name": "Ubicación",
+     "description": "Location",
+     "total_mentioned": 30,
+     "positive": 28,
+     "negative": 0,
+     "neutral": 2,
+     "category_token": "fDeGXXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e4KjQpMzkxOfPw5jwA6oAOOw",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=fDeGXXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e4KjQpMzkxOfPw5jwA6oAOOw&engine=google_hotels_reviews&hl=en&property_token=ChcIsca1pqST47UpGgsvZy8xdGs2cmhrYhAB"
+    },
+    {
+     "name": "Transporte Público",
+     "description": "Public transit",
+     "total_mentioned": 11,
+     "positive": 8,
+     "negative": 1,
+     "neutral": 2,
+     "category_token": "eApofHica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJ4-YQEKMgv6gkVSHg8C6QXD4A6O0UKQ",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=eApofHica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJ4-YQEKMgv6gkVSHg8C6QXD4A6O0UKQ&engine=google_hotels_reviews&hl=en&property_token=ChcIsca1pqST47UpGgsvZy8xdGs2cmhrYhAB"
+    },
+    {
+     "name": "Propiedad",
+     "description": "Property",
+     "total_mentioned": 31,
+     "positive": 23,
+     "negative": 5,
+     "neutral": 3,
+     "category_token": "CaF1zXica1yRnFiSmp5fVDl5RUBRfkFqUUkl40oQKzM1JTEFAN60DWo",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=CaF1zXica1yRnFiSmp5fVDl5RUBRfkFqUUkl40oQKzM1JTEFAN60DWo&engine=google_hotels_reviews&hl=en&property_token=ChcIsca1pqST47UpGgsvZy8xdGs2cmhrYhAB"
+    }
+   ],
+   "amenities": [
+    "Free breakfast",
+    "Free Wi-Fi",
+    "Pool",
+    "Hot tub",
+    "Air conditioning",
+    "Fitness center",
+    "Spa",
+    "Kitchen",
+    "Airport shuttle",
+    "Full-service laundry",
+    "Accessible",
+    "Kid-friendly",
+    "Smoke-free property"
+   ],
+   "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChcIsca1pqST47UpGgsvZy8xdGs2cmhrYhAB",
+   "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChcIsca1pqST47UpGgsvZy8xdGs2cmhrYhAB"
+  },
+  {
+   "type": "hotel",
+   "name": "Bulnes Eco Suites",
+   "description": "Estudios y suites elegantes con balcones, bar restaurante y terraza en la azotea con bañera de hidromasaje.",
+   "link": "http://www.bulnesecosuites.com/",
+   "property_token": "ChoIlIzx_LGRq9aeARoNL2cvMTFiNXBrbHhfMBAB",
+   "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-10-10&check_out_date=2026-10-13&children=0&currency=USD&engine=google_hotels&gl=ar&hl=es&property_token=ChoIlIzx_LGRq9aeARoNL2cvMTFiNXBrbHhfMBAB&q=Hotels+in+Palermo%2C+Buenos+Aires",
+   "gps_coordinates": {
+    "latitude": -34.5891896,
+    "longitude": -58.41250350000001
+   },
+   "rate_per_night": {
+    "lowest": "US$ 94",
+    "extracted_lowest": 94,
+    "before_taxes_fees": "US$ 77",
+    "extracted_before_taxes_fees": 77
+   },
+   "total_rate": {
+    "lowest": "US$ 281",
+    "extracted_lowest": 281,
+    "before_taxes_fees": "US$ 232",
+    "extracted_before_taxes_fees": 232
+   },
+   "nearby_places": [
+    {
+     "name": "El Ateneo",
+     "transportations": [
+      {
+       "type": "Taxi",
+       "duration": "7 min"
+      }
+     ]
+    },
+    {
+     "name": "Bulnes",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "3 min"
+      }
+     ]
+    },
+    {
+     "name": "Aeroparque Internacional Jorge Newbery",
+     "transportations": [
+      {
+       "type": "Public transport",
+       "duration": "19 min"
+      },
+      {
+       "type": "Taxi",
+       "duration": "24 min"
+      }
+     ]
+    },
+    {
+     "name": "DON SAZÓN Restaurante",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "3 min"
+      }
+     ]
+    }
+   ],
+   "hotel_class": "Hotel de 4 estrellas",
+   "extracted_hotel_class": 4,
+   "overall_rating": 4.3,
+   "reviews": 2376,
+   "ratings": [
+    {
+     "stars": 5,
+     "count": 1281
+    },
+    {
+     "stars": 4,
+     "count": 691
+    },
+    {
+     "stars": 3,
+     "count": 283
+    },
+    {
+     "stars": 2,
+     "count": 58
+    },
+    {
+     "stars": 1,
+     "count": 63
+    }
+   ],
+   "location_rating": 4.5,
+   "reviews_breakdown": [
+    {
+     "name": "Ubicación",
+     "description": "Location",
+     "total_mentioned": 43,
+     "positive": 41,
+     "negative": 0,
+     "neutral": 2,
+     "category_token": "fDeGXXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e4KjQpMzkxOfPw5jwA6oAOOw",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=fDeGXXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e4KjQpMzkxOfPw5jwA6oAOOw&engine=google_hotels_reviews&hl=en&property_token=ChoIlIzx_LGRq9aeARoNL2cvMTFiNXBrbHhfMBAB"
+    },
+    {
+     "name": "Propiedad",
+     "description": "Property",
+     "total_mentioned": 52,
+     "positive": 46,
+     "negative": 3,
+     "neutral": 3,
+     "category_token": "CaF1zXica1yRnFiSmp5fVDl5RUBRfkFqUUkl40oQKzM1JTEFAN60DWo",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=CaF1zXica1yRnFiSmp5fVDl5RUBRfkFqUUkl40oQKzM1JTEFAN60DWo&engine=google_hotels_reviews&hl=en&property_token=ChoIlIzx_LGRq9aeARoNL2cvMTFiNXBrbHhfMBAB"
+    },
+    {
+     "name": "Cocina",
+     "description": "Kitchen",
+     "total_mentioned": 7,
+     "positive": 5,
+     "negative": 0,
+     "neutral": 2,
+     "category_token": "agMK8Hica1yRnFiSmp5fVDl5uXdmSXJGah7DMuf85My8RACoKwt7",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=agMK8Hica1yRnFiSmp5fVDl5uXdmSXJGah7DMuf85My8RACoKwt7&engine=google_hotels_reviews&hl=en&property_token=ChoIlIzx_LGRq9aeARoNL2cvMTFiNXBrbHhfMBAB"
+    },
+    {
+     "name": "Servicio",
+     "description": "Service",
+     "total_mentioned": 43,
+     "positive": 42,
+     "negative": 0,
+     "neutral": 1,
+     "category_token": "42y933ica1yRnFiSmp5fVDl5eXBqUVlmcirjCggjMx8AwgsMgA",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=42y933ica1yRnFiSmp5fVDl5eXBqUVlmcirjCggjMx8AwgsMgA&engine=google_hotels_reviews&hl=en&property_token=ChoIlIzx_LGRq9aeARoNL2cvMTFiNXBrbHhfMBAB"
+    },
+    {
+     "name": "Tranquilidad Para Dormir",
+     "description": "Sleep",
+     "total_mentioned": 12,
+     "positive": 5,
+     "negative": 3,
+     "neutral": 4,
+     "category_token": "u4_ZqXica1yRnFiSmp5fVDl5aXBOamoBw46QosS8wtLMnMyUxBSFgMSiRAWX_KLczCIAlOkRhA",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=u4_ZqXica1yRnFiSmp5fVDl5aXBOamoBw46QosS8wtLMnMyUxBSFgMSiRAWX_KLczCIAlOkRhA&engine=google_hotels_reviews&hl=en&property_token=ChoIlIzx_LGRq9aeARoNL2cvMTFiNXBrbHhfMBAB"
+    },
+    {
+     "name": "Transporte Público",
+     "description": "Public transit",
+     "total_mentioned": 9,
+     "positive": 7,
+     "negative": 0,
+     "neutral": 2,
+     "category_token": "9jg04nica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJw-YQEKMgv6gkVSHg8C6QXD4A6NgUKA",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=9jg04nica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJw-YQEKMgv6gkVSHg8C6QXD4A6NgUKA&engine=google_hotels_reviews&hl=en&property_token=ChoIlIzx_LGRq9aeARoNL2cvMTFiNXBrbHhfMBAB"
+    }
+   ],
+   "amenities": [
+    "Air conditioning",
+    "Pet-friendly",
+    "Kitchen",
+    "Airport shuttle",
+    "Kid-friendly"
+   ],
+   "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoIlIzx_LGRq9aeARoNL2cvMTFiNXBrbHhfMBAB",
+   "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoIlIzx_LGRq9aeARoNL2cvMTFiNXBrbHhfMBAB"
+  },
+  {
+   "type": "hotel",
+   "name": "SWEET HOME PALERMO SOHO",
+   "link": "http://www.sweethomepalermosoho.com/",
+   "property_token": "ChoIluG0wuWZwrejARoNL2cvMTFzMzRxeTlnMhAB",
+   "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-10-10&check_out_date=2026-10-13&children=0&currency=USD&engine=google_hotels&gl=ar&hl=es&property_token=ChoIluG0wuWZwrejARoNL2cvMTFzMzRxeTlnMhAB&q=Hotels+in+Palermo%2C+Buenos+Aires",
+   "gps_coordinates": {
+    "latitude": -34.585871,
+    "longitude": -58.4252944
+   },
+   "check_in_time": "15:00",
+   "rate_per_night": {
+    "lowest": "US$ 65",
+    "extracted_lowest": 65,
+    "before_taxes_fees": "US$ 62",
+    "extracted_before_taxes_fees": 62
+   },
+   "total_rate": {
+    "lowest": "US$ 195",
+    "extracted_lowest": 195,
+    "before_taxes_fees": "US$ 186",
+    "extracted_before_taxes_fees": 186
+   },
+   "deal": "25% menos de lo habitual",
+   "deal_description": "Great Deal",
+   "nearby_places": [
+    {
+     "name": "Parque Tres de Febrero",
+     "transportations": [
+      {
+       "type": "Taxi",
+       "duration": "9 min"
+      }
+     ]
+    },
+    {
+     "name": "Ministro Carranza",
+     "transportations": [
+      {
+       "type": "Taxi",
+       "duration": "9 min"
+      }
+     ]
+    },
+    {
+     "name": "Aeroparque Internacional Jorge Newbery",
+     "transportations": [
+      {
+       "type": "Public transport",
+       "duration": "22 min"
+      },
+      {
+       "type": "Taxi",
+       "duration": "22 min"
+      }
+     ]
+    },
+    {
+     "name": "Ciro Palermo",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "1 min"
+      }
+     ]
+    }
+   ],
+   "overall_rating": 4.2,
+   "reviews": 148,
+   "ratings": [
+    {
+     "stars": 5,
+     "count": 90
+    },
+    {
+     "stars": 4,
+     "count": 24
+    },
+    {
+     "stars": 3,
+     "count": 14
+    },
+    {
+     "stars": 2,
+     "count": 9
+    },
+    {
+     "stars": 1,
+     "count": 11
+    }
+   ],
+   "location_rating": 4.6,
+   "amenities": [
+    "Free breakfast",
+    "Free Wi-Fi",
+    "Air conditioning",
+    "Bar",
+    "Restaurant",
+    "Airport shuttle"
+   ],
+   "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoIluG0wuWZwrejARoNL2cvMTFzMzRxeTlnMhAB",
+   "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoIluG0wuWZwrejARoNL2cvMTFzMzRxeTlnMhAB"
+  },
+  {
+   "type": "hotel",
+   "name": "248 Finisterra Hotel Boutique",
+   "description": "Hotel pintoresco con habitaciones y suites acogedoras, vinoteca, jardín y terraza con bañera de hidromasaje.",
+   "link": "http://www.248finisterra.com/",
+   "property_token": "ChkIr7yA9fXGz7sOGg0vZy8xMWNzcjVjd216EAE",
+   "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-10-10&check_out_date=2026-10-13&children=0&currency=USD&engine=google_hotels&gl=ar&hl=es&property_token=ChkIr7yA9fXGz7sOGg0vZy8xMWNzcjVjd216EAE&q=Hotels+in+Palermo%2C+Buenos+Aires",
+   "gps_coordinates": {
+    "latitude": -34.5724544,
+    "longitude": -58.43062619999999
+   },
+   "check_in_time": "14:00",
+   "check_out_time": "11:00",
+   "rate_per_night": {
+    "lowest": "US$ 93",
+    "extracted_lowest": 93,
+    "before_taxes_fees": "US$ 90",
+    "extracted_before_taxes_fees": 90
+   },
+   "total_rate": {
+    "lowest": "US$ 278",
+    "extracted_lowest": 278,
+    "before_taxes_fees": "US$ 271",
+    "extracted_before_taxes_fees": 271
+   },
+   "deal": "43% menos de lo habitual",
+   "deal_description": "Great Deal",
+   "nearby_places": [
+    {
+     "name": "Museo Nacional de Bellas Artes",
+     "transportations": [
+      {
+       "type": "Taxi",
+       "duration": "9 min"
+      }
+     ]
+    },
+    {
+     "name": "3 de Febrero",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "8 min"
+      }
+     ]
+    },
+    {
+     "name": "Aeroparque Internacional Jorge Newbery",
+     "transportations": [
+      {
+       "type": "Public transport",
+       "duration": "18 min"
+      },
+      {
+       "type": "Taxi",
+       "duration": "19 min"
+      }
+     ]
+    },
+    {
+     "name": "Novecento Cañitas",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "1 min"
+      }
+     ]
+    }
+   ],
+   "hotel_class": "Hotel de 4 estrellas",
+   "extracted_hotel_class": 4,
+   "overall_rating": 4.2,
+   "reviews": 268,
+   "ratings": [
+    {
+     "stars": 5,
+     "count": 153
+    },
+    {
+     "stars": 4,
+     "count": 66
+    },
+    {
+     "stars": 3,
+     "count": 23
+    },
+    {
+     "stars": 2,
+     "count": 9
+    },
+    {
+     "stars": 1,
+     "count": 17
+    }
+   ],
+   "location_rating": 4.0,
+   "reviews_breakdown": [
+    {
+     "name": "Propiedad",
+     "description": "Property",
+     "total_mentioned": 11,
+     "positive": 9,
+     "negative": 2,
+     "neutral": 0,
+     "category_token": "CaF1zXica1yRnFiSmp5fVDl5RUBRfkFqUUkl40oQKzM1JTEFAN60DWo",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=CaF1zXica1yRnFiSmp5fVDl5RUBRfkFqUUkl40oQKzM1JTEFAN60DWo&engine=google_hotels_reviews&hl=en&property_token=ChkIr7yA9fXGz7sOGg0vZy8xMWNzcjVjd216EAE"
+    },
+    {
+     "name": "Servicio",
+     "description": "Service",
+     "total_mentioned": 11,
+     "positive": 11,
+     "negative": 0,
+     "neutral": 0,
+     "category_token": "42y933ica1yRnFiSmp5fVDl5eXBqUVlmcirjCggjMx8AwgsMgA",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=42y933ica1yRnFiSmp5fVDl5eXBqUVlmcirjCggjMx8AwgsMgA&engine=google_hotels_reviews&hl=en&property_token=ChkIr7yA9fXGz7sOGg0vZy8xMWNzcjVjd216EAE"
+    },
+    {
+     "name": "Ubicación",
+     "description": "Location",
+     "total_mentioned": 9,
+     "positive": 9,
+     "negative": 0,
+     "neutral": 0,
+     "category_token": "9CWruHica1yRnFiSmp5fVDl5hU8-kJ2Zn8ewKjQpMzkxOfPw5jwA6nQOOg",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=9CWruHica1yRnFiSmp5fVDl5hU8-kJ2Zn8ewKjQpMzkxOfPw5jwA6nQOOg&engine=google_hotels_reviews&hl=en&property_token=ChkIr7yA9fXGz7sOGg0vZy8xMWNzcjVjd216EAE"
+    },
+    {
+     "name": "Lugares Para Desayunar",
+     "description": "Breakfast",
+     "total_mentioned": 5,
+     "positive": 4,
+     "negative": 0,
+     "neutral": 1,
+     "category_token": "0HMJUXica1yRnFiSmp5fVDl5pVNRamJ2WmJxCcM2n9L0xKLUYoWAxKJEBZfU4sTK0rzEIgC2_BJQ",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=0HMJUXica1yRnFiSmp5fVDl5pVNRamJ2WmJxCcM2n9L0xKLUYoWAxKJEBZfU4sTK0rzEIgC2_BJQ&engine=google_hotels_reviews&hl=en&property_token=ChkIr7yA9fXGz7sOGg0vZy8xMWNzcjVjd216EAE"
+    }
+   ],
+   "amenities": [
+    "Free breakfast",
+    "Free Wi-Fi",
+    "Parking",
+    "Hot tub",
+    "Air conditioning",
+    "Bar",
+    "Restaurant",
+    "Room service",
+    "Airport shuttle",
+    "Full-service laundry",
+    "Accessible",
+    "Kid-friendly",
+    "Smoke-free property"
+   ],
+   "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkIr7yA9fXGz7sOGg0vZy8xMWNzcjVjd216EAE",
+   "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkIr7yA9fXGz7sOGg0vZy8xMWNzcjVjd216EAE"
+  },
+  {
+   "type": "hotel",
+   "name": "Pacífico Hotel Buenos Aires",
+   "link": "https://palermosuites.net/",
+   "property_token": "ChoIhsL4trrp2ojaARoNL2cvMTF3bXRocHN4ZhAB",
+   "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-10-10&check_out_date=2026-10-13&children=0&currency=USD&engine=google_hotels&gl=ar&hl=es&property_token=ChoIhsL4trrp2ojaARoNL2cvMTF3bXRocHN4ZhAB&q=Hotels+in+Palermo%2C+Buenos+Aires",
+   "gps_coordinates": {
+    "latitude": -34.5784376,
+    "longitude": -58.424184
+   },
+   "rate_per_night": {
+    "lowest": "US$ 78",
+    "extracted_lowest": 78,
+    "before_taxes_fees": "US$ 77",
+    "extracted_before_taxes_fees": 77
+   },
+   "total_rate": {
+    "lowest": "US$ 235",
+    "extracted_lowest": 235,
+    "before_taxes_fees": "US$ 230",
+    "extracted_before_taxes_fees": 230
+   },
+   "deal": "19% menos de lo habitual",
+   "deal_description": "Deal",
+   "nearby_places": [
+    {
+     "name": "Museo de Arte Latinoamericano de Buenos Aires",
+     "transportations": [
+      {
+       "type": "Taxi",
+       "duration": "9 min"
+      }
+     ]
+    },
+    {
+     "name": "Oro",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "1 min"
+      }
+     ]
+    },
+    {
+     "name": "Aeroparque Internacional Jorge Newbery",
+     "transportations": [
+      {
+       "type": "Public transport",
+       "duration": "9 min"
+      },
+      {
+       "type": "Taxi",
+       "duration": "19 min"
+      }
+     ]
+    },
+    {
+     "name": "LA AMISTAD",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "2 min"
+      }
+     ]
+    }
+   ],
+   "hotel_class": "Hotel de 2 estrellas",
+   "extracted_hotel_class": 2,
+   "overall_rating": 4.3,
+   "reviews": 71,
+   "ratings": [
+    {
+     "stars": 5,
+     "count": 39
+    },
+    {
+     "stars": 4,
+     "count": 22
+    },
+    {
+     "stars": 3,
+     "count": 6
+    },
+    {
+     "stars": 2,
+     "count": 2
+    },
+    {
+     "stars": 1,
+     "count": 2
+    }
+   ],
+   "location_rating": 4.5,
+   "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoIhsL4trrp2ojaARoNL2cvMTF3bXRocHN4ZhAB",
+   "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoIhsL4trrp2ojaARoNL2cvMTF3bXRocHN4ZhAB"
+  },
+  {
+   "type": "vacation rental",
+   "name": "Ubicación Ideal en el corazón de Palermo Soho",
+   "property_token": "ChkQs6aK_Yan1r9tGg0vZy8xMXluMXM0cXNtEAI",
+   "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-10-10&check_out_date=2026-10-13&children=0&currency=USD&engine=google_hotels&gl=ar&hl=es&property_token=ChkQs6aK_Yan1r9tGg0vZy8xMXluMXM0cXNtEAI&q=Hotels+in+Palermo%2C+Buenos+Aires",
+   "gps_coordinates": {
+    "latitude": -34.583011627197266,
+    "longitude": -58.43486022949219
+   },
+   "check_in_time": "14:00",
+   "check_out_time": "10:00",
+   "rate_per_night": {
+    "lowest": "US$ 64",
+    "extracted_lowest": 64,
+    "before_taxes_fees": "US$ 61",
+    "extracted_before_taxes_fees": 61
+   },
+   "total_rate": {
+    "lowest": "US$ 191",
+    "extracted_lowest": 191,
+    "before_taxes_fees": "US$ 182",
+    "extracted_before_taxes_fees": 182
+   },
+   "prices": [
+    {
+     "source": "Booking.com",
+     "num_guests": 2,
+     "rate_per_night": {
+      "lowest": "US$ 64",
+      "extracted_lowest": 64,
+      "before_taxes_fees": "US$ 61",
+      "extracted_before_taxes_fees": 61
+     },
+     "free_cancellation": true,
+     "free_cancellation_until_date": "14 jun",
+     "free_cancellation_until_time": "21:00"
+    }
+   ],
+   "nearby_places": [
+    {
+     "name": "Federico Lacroze",
+     "transportations": [
+      {
+       "type": "Taxi",
+       "duration": "9 min"
+      }
+     ]
+    },
+    {
+     "name": "Aeroparque Internacional Jorge Newbery",
+     "transportations": [
+      {
+       "type": "Public transport",
+       "duration": "13 min"
+      },
+      {
+       "type": "Taxi",
+       "duration": "23 min"
+      }
+     ]
+    },
+    {
+     "name": "Las Cabras",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "1 min"
+      }
+     ]
+    }
+   ],
+   "overall_rating": 4.1225805,
+   "reviews": 31,
+   "location_rating": 4.4,
+   "amenities": [
+    "Aire acondicionado",
+    "Cocina",
+    "Libre de humos",
+    "Televisión por cable",
+    "Wi‑Fi gratis"
+   ],
+   "excluded_amenities": [
+    "No hay cuna",
+    "No hay ascensor",
+    "No hay gimnasio",
+    "No hay calefacción",
+    "No hay tabla de planchar",
+    "No hay microondas",
+    "No hay parrilla al aire libre",
+    "No hay cocina con hornilla y horno",
+    "No hay patio",
+    "No se admiten mascotas",
+    "No hay lavadora",
+    "No hay acceso para sillas de ruedas"
+   ],
+   "essential_info": [
+    "Todo el apartamento",
+    "Capacidad para 2",
+    "1 dormitorio",
+    "1 baño",
+    "1 cama"
+   ],
+   "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkQs6aK_Yan1r9tGg0vZy8xMXluMXM0cXNtEAI",
+   "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkQs6aK_Yan1r9tGg0vZy8xMXluMXM0cXNtEAI"
+  },
+  {
+   "type": "hotel",
+   "name": "Arenales Suites",
+   "description": "Apartotel de estilo desenfadado con estudios y apartamentos de 1 dormitorio funcionales, y Wi‑Fi gratis.",
+   "link": "http://www.arenalesuites.com/",
+   "property_token": "ChoIvpvCioGun-iTARoNL2cvMTFjMXhmaGdfdhAB",
+   "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-10-10&check_out_date=2026-10-13&children=0&currency=USD&engine=google_hotels&gl=ar&hl=es&property_token=ChoIvpvCioGun-iTARoNL2cvMTFjMXhmaGdfdhAB&q=Hotels+in+Palermo%2C+Buenos+Aires",
+   "gps_coordinates": {
+    "latitude": -34.5914224,
+    "longitude": -58.40563280000001
+   },
+   "rate_per_night": {
+    "lowest": "US$ 48",
+    "extracted_lowest": 48,
+    "before_taxes_fees": "US$ 46",
+    "extracted_before_taxes_fees": 46
+   },
+   "total_rate": {
+    "lowest": "US$ 144",
+    "extracted_lowest": 144,
+    "before_taxes_fees": "US$ 139",
+    "extracted_before_taxes_fees": 139
+   },
+   "deal": "56% menos de lo habitual",
+   "deal_description": "Great Deal",
+   "nearby_places": [
+    {
+     "name": "El Ateneo",
+     "transportations": [
+      {
+       "type": "Public transport",
+       "duration": "9 min"
+      }
+     ]
+    },
+    {
+     "name": "Agüero",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "3 min"
+      }
+     ]
+    },
+    {
+     "name": "Aeroparque Internacional Jorge Newbery",
+     "transportations": [
+      {
+       "type": "Public transport",
+       "duration": "22 min"
+      },
+      {
+       "type": "Taxi",
+       "duration": "26 min"
+      }
+     ]
+    },
+    {
+     "name": "Martina Fondues",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "3 min"
+      }
+     ]
+    }
+   ],
+   "hotel_class": "Hotel de 3 estrellas",
+   "extracted_hotel_class": 3,
+   "overall_rating": 3.9,
+   "reviews": 557,
+   "ratings": [
+    {
+     "stars": 5,
+     "count": 230
+    },
+    {
+     "stars": 4,
+     "count": 165
+    },
+    {
+     "stars": 3,
+     "count": 88
+    },
+    {
+     "stars": 2,
+     "count": 30
+    },
+    {
+     "stars": 1,
+     "count": 44
+    }
+   ],
+   "location_rating": 3.9,
+   "amenities": [
+    "Free Wi-Fi",
+    "Air conditioning",
+    "Kid-friendly",
+    "Smoke-free property"
+   ],
+   "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoIvpvCioGun-iTARoNL2cvMTFjMXhmaGdfdhAB",
+   "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoIvpvCioGun-iTARoNL2cvMTFjMXhmaGdfdhAB"
+  },
+  {
+   "type": "hotel",
+   "name": "Mine Hotel Boutique",
+   "description": "Hotel con desayuno, bar, piscina exterior y habitaciones sencillas, algunas con bañera de hidromasaje.",
+   "link": "http://www.minehotel.com/",
+   "property_token": "ChcI9cDm3dyGka4vGgsvZy8xdGxtcGhzMxAB",
+   "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-10-10&check_out_date=2026-10-13&children=0&currency=USD&engine=google_hotels&gl=ar&hl=es&property_token=ChcI9cDm3dyGka4vGgsvZy8xdGxtcGhzMxAB&q=Hotels+in+Palermo%2C+Buenos+Aires",
+   "gps_coordinates": {
+    "latitude": -34.5910173,
+    "longitude": -58.4288476
+   },
+   "check_in_time": "14:00",
+   "check_out_time": "11:00",
+   "nearby_places": [
+    {
+     "name": "Museo Evita",
+     "transportations": [
+      {
+       "type": "Taxi",
+       "duration": "9 min"
+      }
+     ]
+    },
+    {
+     "name": "Palermo",
+     "transportations": [
+      {
+       "type": "Taxi",
+       "duration": "9 min"
+      }
+     ]
+    },
+    {
+     "name": "Aeroparque Internacional Jorge Newbery",
+     "transportations": [
+      {
+       "type": "Public transport",
+       "duration": "23 min"
+      },
+      {
+       "type": "Taxi",
+       "duration": "26 min"
+      }
+     ]
+    },
+    {
+     "name": "Tiempos de Reencuentro, Parrilla Palermo SOHO",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "2 min"
+      }
+     ]
+    }
+   ],
+   "hotel_class": "Hotel de 4 estrellas",
+   "extracted_hotel_class": 4,
+   "overall_rating": 4.7,
+   "reviews": 618,
+   "ratings": [
+    {
+     "stars": 5,
+     "count": 503
+    },
+    {
+     "stars": 4,
+     "count": 88
+    },
+    {
+     "stars": 3,
+     "count": 8
+    },
+    {
+     "stars": 2,
+     "count": 4
+    },
+    {
+     "stars": 1,
+     "count": 15
+    }
+   ],
+   "location_rating": 4.6,
+   "reviews_breakdown": [
+    {
+     "name": "Lugares Para Desayunar",
+     "description": "Breakfast",
+     "total_mentioned": 47,
+     "positive": 44,
+     "negative": 1,
+     "neutral": 2,
+     "category_token": "0KtIQ3ica1yRnFiSmp5fVDl5pVNRamJ2WmJxCeM2n9L0xKLUYoWAxKJEBZfU4sTK0rzEIgC3FBJR",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=0KtIQ3ica1yRnFiSmp5fVDl5pVNRamJ2WmJxCeM2n9L0xKLUYoWAxKJEBZfU4sTK0rzEIgC3FBJR&engine=google_hotels_reviews&hl=en&property_token=ChcI9cDm3dyGka4vGgsvZy8xdGxtcGhzMxAB"
+    },
+    {
+     "name": "Servicio",
+     "description": "Service",
+     "total_mentioned": 71,
+     "positive": 70,
+     "negative": 1,
+     "neutral": 0,
+     "category_token": "42y933ica1yRnFiSmp5fVDl5eXBqUVlmcirjCggjMx8AwgsMgA",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=42y933ica1yRnFiSmp5fVDl5eXBqUVlmcirjCggjMx8AwgsMgA&engine=google_hotels_reviews&hl=en&property_token=ChcI9cDm3dyGka4vGgsvZy8xdGxtcGhzMxAB"
+    },
+    {
+     "name": "Propiedad",
+     "description": "Property",
+     "total_mentioned": 66,
+     "positive": 62,
+     "negative": 2,
+     "neutral": 2,
+     "category_token": "CaF1zXica1yRnFiSmp5fVDl5RUBRfkFqUUkl40oQKzM1JTEFAN60DWo",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=CaF1zXica1yRnFiSmp5fVDl5RUBRfkFqUUkl40oQKzM1JTEFAN60DWo&engine=google_hotels_reviews&hl=en&property_token=ChcI9cDm3dyGka4vGgsvZy8xdGxtcGhzMxAB"
+    },
+    {
+     "name": "Ubicación",
+     "description": "Location",
+     "total_mentioned": 55,
+     "positive": 53,
+     "negative": 0,
+     "neutral": 2,
+     "category_token": "fDeGXXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e4KjQpMzkxOfPw5jwA6oAOOw",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=fDeGXXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e4KjQpMzkxOfPw5jwA6oAOOw&engine=google_hotels_reviews&hl=en&property_token=ChcI9cDm3dyGka4vGgsvZy8xdGxtcGhzMxAB"
+    },
+    {
+     "name": "Ejercicio",
+     "description": "Fitness",
+     "total_mentioned": 18,
+     "positive": 14,
+     "negative": 3,
+     "neutral": 1,
+     "category_token": "Uz-f0Hica1yRnFiSmp5fVDl5uVtmSV5qcTHjStes1KLkzOTMfADOWQzV",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=Uz-f0Hica1yRnFiSmp5fVDl5uVtmSV5qcTHjStes1KLkzOTMfADOWQzV&engine=google_hotels_reviews&hl=en&property_token=ChcI9cDm3dyGka4vGgsvZy8xdGxtcGhzMxAB"
+    },
+    {
+     "name": "Restaurante",
+     "description": "Restaurant",
+     "total_mentioned": 25,
+     "positive": 21,
+     "negative": 1,
+     "neutral": 3,
+     "category_token": "eOxz73ica1yRnFiSmp5fVDl5VVBqcUliaVFiXgnjagQ7FQAYpg8o",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=eOxz73ica1yRnFiSmp5fVDl5VVBqcUliaVFiXgnjagQ7FQAYpg8o&engine=google_hotels_reviews&hl=en&property_token=ChcI9cDm3dyGka4vGgsvZy8xdGxtcGhzMxAB"
+    }
+   ],
+   "amenities": [
+    "Free breakfast",
+    "Free Wi-Fi",
+    "Free parking",
+    "Outdoor pool",
+    "Air conditioning",
+    "Bar",
+    "Airport shuttle",
+    "Full-service laundry",
+    "Accessible",
+    "Kid-friendly",
+    "Smoke-free property"
+   ],
+   "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChcI9cDm3dyGka4vGgsvZy8xdGxtcGhzMxAB",
+   "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChcI9cDm3dyGka4vGgsvZy8xdGxtcGhzMxAB"
+  },
+  {
+   "type": "hotel",
+   "name": "Be Hollywood",
+   "description": "Hotel moderno con un restaurante ecléctico, bar y una terraza chic en la azotea con piscina.",
+   "link": "http://behollywood.com/?lang=en",
+   "property_token": "ChgI67ug_aXh5JmvARoLL2cvMXRteHM1X2YQAQ",
+   "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-10-10&check_out_date=2026-10-13&children=0&currency=USD&engine=google_hotels&gl=ar&hl=es&property_token=ChgI67ug_aXh5JmvARoLL2cvMXRteHM1X2YQAQ&q=Hotels+in+Palermo%2C+Buenos+Aires",
+   "gps_coordinates": {
+    "latitude": -34.584510699999996,
+    "longitude": -58.43523549999999
+   },
+   "rate_per_night": {
+    "lowest": "US$ 144",
+    "extracted_lowest": 144,
+    "before_taxes_fees": "US$ 119",
+    "extracted_before_taxes_fees": 119
+   },
+   "total_rate": {
+    "lowest": "US$ 431",
+    "extracted_lowest": 431,
+    "before_taxes_fees": "US$ 356",
+    "extracted_before_taxes_fees": 356
+   },
+   "deal": "16% menos de lo habitual",
+   "deal_description": "Deal",
+   "nearby_places": [
+    {
+     "name": "Museo Evita",
+     "transportations": [
+      {
+       "type": "Public transport",
+       "duration": "10 min"
+      }
+     ]
+    },
+    {
+     "name": "Humboldt Y El Salvador",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "1 min"
+      }
+     ]
+    },
+    {
+     "name": "Aeroparque Internacional Jorge Newbery",
+     "transportations": [
+      {
+       "type": "Public transport",
+       "duration": "12 min"
+      },
+      {
+       "type": "Taxi",
+       "duration": "22 min"
+      }
+     ]
+    },
+    {
+     "name": "CAMPOBRAVO Palermo",
+     "transportations": [
+      {
+       "type": "Walking",
+       "duration": "2 min"
+      }
+     ]
+    }
+   ],
+   "hotel_class": "Hotel de 4 estrellas",
+   "extracted_hotel_class": 4,
+   "overall_rating": 4.3,
+   "reviews": 701,
+   "ratings": [
+    {
+     "stars": 5,
+     "count": 406
+    },
+    {
+     "stars": 4,
+     "count": 167
+    },
+    {
+     "stars": 3,
+     "count": 72
+    },
+    {
+     "stars": 2,
+     "count": 19
+    },
+    {
+     "stars": 1,
+     "count": 37
+    }
+   ],
+   "location_rating": 4.5,
+   "reviews_breakdown": [
+    {
+     "name": "Lugares Para Desayunar",
+     "description": "Breakfast",
+     "total_mentioned": 20,
+     "positive": 16,
+     "negative": 3,
+     "neutral": 1,
+     "category_token": "0KtIQ3ica1yRnFiSmp5fVDl5pVNRamJ2WmJxCeM2n9L0xKLUYoWAxKJEBZfU4sTK0rzEIgC3FBJR",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=0KtIQ3ica1yRnFiSmp5fVDl5pVNRamJ2WmJxCeM2n9L0xKLUYoWAxKJEBZfU4sTK0rzEIgC3FBJR&engine=google_hotels_reviews&hl=en&property_token=ChgI67ug_aXh5JmvARoLL2cvMXRteHM1X2YQAQ"
+    },
+    {
+     "name": "Servicio",
+     "description": "Service",
+     "total_mentioned": 22,
+     "positive": 19,
+     "negative": 2,
+     "neutral": 1,
+     "category_token": "42y933ica1yRnFiSmp5fVDl5eXBqUVlmcirjCggjMx8AwgsMgA",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=42y933ica1yRnFiSmp5fVDl5eXBqUVlmcirjCggjMx8AwgsMgA&engine=google_hotels_reviews&hl=en&property_token=ChgI67ug_aXh5JmvARoLL2cvMXRteHM1X2YQAQ"
+    },
+    {
+     "name": "Restaurante",
+     "description": "Restaurant",
+     "total_mentioned": 12,
+     "positive": 10,
+     "negative": 1,
+     "neutral": 1,
+     "category_token": "eOxz73ica1yRnFiSmp5fVDl5VVBqcUliaVFiXgnjagQ7FQAYpg8o",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=eOxz73ica1yRnFiSmp5fVDl5VVBqcUliaVFiXgnjagQ7FQAYpg8o&engine=google_hotels_reviews&hl=en&property_token=ChgI67ug_aXh5JmvARoLL2cvMXRteHM1X2YQAQ"
+    },
+    {
+     "name": "Ubicación",
+     "description": "Location",
+     "total_mentioned": 15,
+     "positive": 14,
+     "negative": 1,
+     "neutral": 0,
+     "category_token": "fDeGXXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e4KjQpMzkxOfPw5jwA6oAOOw",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=fDeGXXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e4KjQpMzkxOfPw5jwA6oAOOw&engine=google_hotels_reviews&hl=en&property_token=ChgI67ug_aXh5JmvARoLL2cvMXRteHM1X2YQAQ"
+    },
+    {
+     "name": "Ejercicio",
+     "description": "Fitness",
+     "total_mentioned": 8,
+     "positive": 6,
+     "negative": 2,
+     "neutral": 0,
+     "category_token": "ITRsInica1yRnFiSmp5fVDl5uVtmSV5qcTHDStes1KLkzOTMfADOTgzU",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=ITRsInica1yRnFiSmp5fVDl5uVtmSV5qcTHDStes1KLkzOTMfADOTgzU&engine=google_hotels_reviews&hl=en&property_token=ChgI67ug_aXh5JmvARoLL2cvMXRteHM1X2YQAQ"
+    },
+    {
+     "name": "Propiedad",
+     "description": "Property",
+     "total_mentioned": 20,
+     "positive": 14,
+     "negative": 5,
+     "neutral": 1,
+     "category_token": "CaF1zXica1yRnFiSmp5fVDl5RUBRfkFqUUkl40oQKzM1JTEFAN60DWo",
+     "serpapi_link": "https://serpapi.com/search.json?category_token=CaF1zXica1yRnFiSmp5fVDl5RUBRfkFqUUkl40oQKzM1JTEFAN60DWo&engine=google_hotels_reviews&hl=en&property_token=ChgI67ug_aXh5JmvARoLL2cvMXRteHM1X2YQAQ"
+    }
+   ],
+   "amenities": [
+    "Free breakfast",
+    "Free Wi-Fi",
+    "Parking",
+    "Outdoor pool",
+    "Air conditioning",
+    "Bar",
+    "Restaurant",
+    "Room service",
+    "Airport shuttle",
+    "Full-service laundry",
+    "Accessible",
+    "Kid-friendly"
+   ],
+   "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChgI67ug_aXh5JmvARoLL2cvMXRteHM1X2YQAQ",
+   "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChgI67ug_aXh5JmvARoLL2cvMXRteHM1X2YQAQ"
+  }
+ ],
+ "serpapi_pagination": {
+  "current_from": 1,
+  "current_to": 20,
+  "next_page_token": "CBI=",
+  "next": "https://serpapi.com/search.json?adults=2&check_in_date=2026-10-10&check_out_date=2026-10-13&children=0&currency=USD&engine=google_hotels&gl=ar&hl=es&next_page_token=CBI%3D&q=Hotels+in+Palermo%2C+Buenos+Aires"
+ }
+}

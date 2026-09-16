@@ -1,0 +1,16 @@
+{
+  "destination": "Madrid, Spain",
+  "area_preferences": ["Malasaña", "Chueca", "Centro"],
+  "check_in": "2026-11-09",
+  "check_out": "2026-11-16",
+  "adults": 1,
+  "currency": "EUR",
+  "budget_per_night_max": 110,
+  "property_types": ["apartment", "aparthotel"],
+  "dealbreakers": ["hostel", "shared room"],
+  "hard_constraints": ["wifi", "kitchen"],
+  "soft_preferences": ["desk or workspace", "washing machine", "quiet street"],
+  "travel_purpose": "remote work week",
+  "language": "en",
+  "gl": "es"
+}

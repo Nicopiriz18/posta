@@ -1,0 +1,120 @@
+{
+ "search_metadata": {
+  "id": "6aa47699e6cb307aa2fdfaa3",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/MQ9ESZXKFnaZsJNKdBkCIKsBWkheTPX0qe_HhIM_wv4/6aa47699e6cb307aa2fdfaa3.json",
+  "markdown_endpoint": "https://serpapi.com/searches/MQ9ESZXKFnaZsJNKdBkCIKsBWkheTPX0qe_HhIM_wv4/6aa47699e6cb307aa2fdfaa3.md",
+  "created_at": "2026-09-11T21:46:01.961Z",
+  "processed_at": "2026-09-11T21:46:01.962Z",
+  "google_hotels_reviews_url": "https://www.google.com/travel/search?property_token=ChkQ57LJ3aPpyfENGg0vZy8xMXp3eXoybGNoEAI&hl=es",
+  "raw_html_file": "https://serpapi.com/searches/MQ9ESZXKFnaZsJNKdBkCIKsBWkheTPX0qe_HhIM_wv4/6aa47699e6cb307aa2fdfaa3.html",
+  "prettify_html_file": "https://serpapi.com/searches/MQ9ESZXKFnaZsJNKdBkCIKsBWkheTPX0qe_HhIM_wv4/6aa47699e6cb307aa2fdfaa3.prettify",
+  "total_time_taken": {
+   "float": 0.7245368957519531
+  }
+ },
+ "search_parameters": {
+  "engine": "google_hotels_reviews",
+  "property_token": "ChkQ57LJ3aPpyfENGg0vZy8xMXp3eXoybGNoEAI",
+  "hl": "es",
+  "sort_by": "2"
+ },
+ "reviews": [
+  {
+   "link": "https://www.bluepillow.es/search/65ca4dd2671b07d23c6d50b6?dest=bkng&cat=House&lat=-34.5884&lng=-58.42665&language=es",
+   "user": {
+    "name": "Dana",
+    "link": "https://www.bluepillow.es/search/65ca4dd2671b07d23c6d50b6?dest=bkng&cat=House&lat=-34.5884&lng=-58.42665&language=es"
+   },
+   "source": "Bluepillow.com",
+   "rating": 10,
+   "best_rating": 10,
+   "date": "Hace un año",
+   "snippet": "Book it!<br>#128578; Excellent location! Kind hostess’s. Excellent value! Tricky keys😉<br>#128577; Noise where my room was"
+  },
+  {
+   "link": "https://www.bluepillow.es/search/65ca4dd2671b07d23c6d50b6?dest=bkng&cat=House&lat=-34.5884&lng=-58.42665&language=es",
+   "user": {
+    "name": "Emilia",
+    "link": "https://www.bluepillow.es/search/65ca4dd2671b07d23c6d50b6?dest=bkng&cat=House&lat=-34.5884&lng=-58.42665&language=es"
+   },
+   "source": "Bluepillow.com",
+   "rating": 10,
+   "best_rating": 10,
+   "date": "Hace un año",
+   "snippet": "Excepcional"
+  },
+  {
+   "link": "https://www.bluepillow.es/search/65ca4dd2671b07d23c6d50b6?dest=bkng&cat=House&lat=-34.5884&lng=-58.42665&language=es",
+   "user": {
+    "name": "Malvicino",
+    "link": "https://www.bluepillow.es/search/65ca4dd2671b07d23c6d50b6?dest=bkng&cat=House&lat=-34.5884&lng=-58.42665&language=es"
+   },
+   "source": "Bluepillow.com",
+   "rating": 10,
+   "best_rating": 10,
+   "date": "Hace un año",
+   "snippet": "Excepcional<br>#128578; Me gustó la ubicación y la limpieza y comodidades<br>#128577; Nada"
+  },
+  {
+   "link": "https://www.bluepillow.es/search/65ca4dd2671b07d23c6d50b6?dest=bkng&cat=House&lat=-34.5884&lng=-58.42665&language=es",
+   "user": {
+    "name": "Carla",
+    "link": "https://www.bluepillow.es/search/65ca4dd2671b07d23c6d50b6?dest=bkng&cat=House&lat=-34.5884&lng=-58.42665&language=es"
+   },
+   "source": "Bluepillow.com",
+   "rating": 10,
+   "best_rating": 10,
+   "date": "Hace 2 años",
+   "snippet": "Excepcional<br>#128578; La ubicación es por lejos lo mejor."
+  },
+  {
+   "link": "https://www.bluepillow.es/search/65ca4dd2671b07d23c6d50b6?dest=bkng&cat=House&lat=-34.5884&lng=-58.42665&language=es",
+   "user": {
+    "name": "Matheus",
+    "link": "https://www.bluepillow.es/search/65ca4dd2671b07d23c6d50b6?dest=bkng&cat=House&lat=-34.5884&lng=-58.42665&language=es"
+   },
+   "source": "Bluepillow.com",
+   "rating": 10,
+   "best_rating": 10,
+   "date": "Hace 2 años",
+   "snippet": "Agradável e confortável.<br>#128578; Decoração da casa é maravilhosa, e bem aconchegante, ótima localização, realmente no coração de palermo. Gaby me deu ótimas indicações e dicas!<br>#128577; O banheiro achei um pouco apertado."
+  },
+  {
+   "link": "https://www.bluepillow.es/search/65ca4dd2671b07d23c6d50b6?dest=bkng&cat=House&lat=-34.5884&lng=-58.42665&language=es",
+   "user": {
+    "name": "Alvaro",
+    "link": "https://www.bluepillow.es/search/65ca4dd2671b07d23c6d50b6?dest=bkng&cat=House&lat=-34.5884&lng=-58.42665&language=es"
+   },
+   "source": "Bluepillow.com",
+   "rating": 10,
+   "best_rating": 10,
+   "date": "Hace 2 años",
+   "snippet": "Cumple con todo lo necesario...<br>#128578; Muy buena comunicación, siempre atenta al celular, resolvió muchas dudas."
+  },
+  {
+   "link": "https://www.bluepillow.es/search/65ca4dd2671b07d23c6d50b6?dest=bkng&cat=House&lat=-34.5884&lng=-58.42665&language=es",
+   "user": {
+    "name": "Ludmila",
+    "link": "https://www.bluepillow.es/search/65ca4dd2671b07d23c6d50b6?dest=bkng&cat=House&lat=-34.5884&lng=-58.42665&language=es"
+   },
+   "source": "Bluepillow.com",
+   "rating": 10,
+   "best_rating": 10,
+   "date": "Hace 2 años",
+   "snippet": "Excepcional<br>#128578; La ubicación es excelente!! Y tiene todas las comodidades.."
+  },
+  {
+   "link": "https://www.bluepillow.es/search/65ca4dd2671b07d23c6d50b6?dest=bkng&cat=House&lat=-34.5884&lng=-58.42665&language=es",
+   "user": {
+    "name": "Juan",
+    "link": "https://www.bluepillow.es/search/65ca4dd2671b07d23c6d50b6?dest=bkng&cat=House&lat=-34.5884&lng=-58.42665&language=es"
+   },
+   "source": "Bluepillow.com",
+   "rating": 10,
+   "best_rating": 10,
+   "date": "Hace 2 años",
+   "snippet": "Excelente lugar<br>#128578; Comodidad y ubicación."
+  }
+ ]
+}

@@ -1,0 +1,214 @@
+{
+ "search_metadata": {
+  "id": "6aa476c6fbe53b34da63aa8f",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/PQH9lT2C1SeIxCSkfGQzoapVPrw3pf-utaI3hl4-93c/6aa476c6fbe53b34da63aa8f.json",
+  "markdown_endpoint": "https://serpapi.com/searches/PQH9lT2C1SeIxCSkfGQzoapVPrw3pf-utaI3hl4-93c/6aa476c6fbe53b34da63aa8f.md",
+  "created_at": "2026-09-11T21:46:46.533Z",
+  "processed_at": "2026-09-11T21:46:46.534Z",
+  "google_hotels_reviews_url": "https://www.google.com/travel/search?property_token=ChkI-8aA1PXn1pUoGg0vZy8xMWYxMnp6dDE0EAE&hl=es",
+  "raw_html_file": "https://serpapi.com/searches/PQH9lT2C1SeIxCSkfGQzoapVPrw3pf-utaI3hl4-93c/6aa476c6fbe53b34da63aa8f.html",
+  "prettify_html_file": "https://serpapi.com/searches/PQH9lT2C1SeIxCSkfGQzoapVPrw3pf-utaI3hl4-93c/6aa476c6fbe53b34da63aa8f.prettify",
+  "total_time_taken": {
+   "float": 0.5390217304229736
+  }
+ },
+ "search_parameters": {
+  "engine": "google_hotels_reviews",
+  "property_token": "ChkI-8aA1PXn1pUoGg0vZy8xMWYxMnp6dDE0EAE",
+  "hl": "es",
+  "sort_by": "2"
+ },
+ "reviews": [
+  {
+   "user": {
+    "name": "Nuke Godlike",
+    "link": "https://www.google.com/maps/contrib/101884069228326136980?hl=es"
+   },
+   "source": "Google",
+   "rating": 4,
+   "best_rating": 5,
+   "date": "Hace 4 horas",
+   "snippet": "El Booking y la interacción con el responsable fue algo tosco.  En líneas grales es un buen lugar",
+   "subratings": {
+    "rooms": 4,
+    "service": 3,
+    "location": 5
+   },
+   "hotel_highlights": [
+    "Tranquilo"
+   ]
+  },
+  {
+   "user": {
+    "name": "Victor Savy",
+    "link": "https://www.google.com/maps/contrib/110412160555793908198?hl=es"
+   },
+   "source": "Google",
+   "rating": 4,
+   "best_rating": 5,
+   "date": "Hace 3 semanas",
+   "subratings": {
+    "rooms": 4,
+    "service": 4,
+    "location": 5
+   },
+   "hotel_highlights": [
+    "Tranquilo"
+   ]
+  },
+  {
+   "user": {
+    "name": "Alejandro Baez",
+    "link": "https://www.google.com/maps/contrib/100548319771522443606?hl=es"
+   },
+   "source": "Google",
+   "rating": 5,
+   "best_rating": 5,
+   "date": "Hace 3 semanas",
+   "subratings": {
+    "rooms": 4,
+    "service": 5,
+    "location": 5
+   }
+  },
+  {
+   "user": {
+    "name": "silvia walker",
+    "link": "https://www.google.com/maps/contrib/114234805118615105249?hl=es"
+   },
+   "source": "Google",
+   "rating": 5,
+   "best_rating": 5,
+   "date": "Hace un mes",
+   "subratings": {
+    "rooms": 5,
+    "service": 5,
+    "location": 5
+   }
+  },
+  {
+   "user": {
+    "name": "Marius Daniel",
+    "link": "https://www.google.com/maps/contrib/108266312008641206946?hl=es"
+   },
+   "source": "Google",
+   "rating": 2,
+   "best_rating": 5,
+   "date": "Hace un mes",
+   "snippet": "(Traducido por Google) Destartalado, helado y excesivamente caro.\nUna experiencia muy desagradable.\nEl apartamento no estaba necesariamente sucio, pero sí muy deteriorado: suelo roto y levantado, acabados dañados, umbrales y rodapiés destrozados, señales de humedad y moho alrededor de las ventanas, y una terraza que literalmente se caía a pedazos.\nNos alojamos en invierno y el apartamento parecía un congelador. Los aparatos de aire acondicionado eran viejos, extremadamente ruidosos y casi incapaces de calentar el espacio. El nivel de confort y mantenimiento estaba muy por debajo de lo anunciado y era totalmente inaceptable para el precio que se cobró.\nUna pésima relación calidad-precio. No recomendaría este lugar bajo ninguna circunstancia.\n(Original)\nDecrepit, freezing cold, and completely overpriced\nA very unpleasant experience.\nThe apartment was not necessarily dirty, but it was severely run-down: broken and lifting flooring, damaged finishes, ruined thresholds and skirting boards, signs of water damage and mould around the windows, and a terrace that was literally falling apart.\nWe stayed during winter, and the apartment felt like a freezer. The air-conditioning units were old, extremely noisy, and almost incapable of heating the space. The level of comfort and maintenance was far below what was advertised and completely unacceptable for the price charged.\nTerrible value for money. I would not recommend this place under any circumstances.",
+   "subratings": {
+    "rooms": 2,
+    "service": 3,
+    "location": 4
+   }
+  },
+  {
+   "user": {
+    "name": "Norma Elena Pastor",
+    "link": "https://www.google.com/maps/contrib/100972555073196022638?hl=es"
+   },
+   "source": "Google",
+   "rating": 4,
+   "best_rating": 5,
+   "date": "Hace 2 meses",
+   "snippet": "Habitación grande y cómoda.",
+   "hotel_highlights": [
+    "Tranquilo",
+    "Buen precio"
+   ],
+   "attributes": [
+    {
+     "name": "Habitaciones",
+     "snippet": "Buena cama"
+    },
+    {
+     "name": "Actividades cercanas",
+     "snippet": "Rural; Jardín Botánico; jardín Japonés"
+    },
+    {
+     "name": "Seguridad",
+     "snippet": "Tiene recepcionistas las 24 hs"
+    },
+    {
+     "name": "Viabilidad peatonal",
+     "snippet": "Si"
+    },
+    {
+     "name": "Comida y bebida",
+     "snippet": "Cara en los alrededores"
+    },
+    {
+     "name": "Detalles importantes",
+     "snippet": "Para recomendar"
+    }
+   ]
+  },
+  {
+   "link": "https://www.tripadvisor.com.br/ShowUserReviews-g312741-d15667536-r1063550157?m=68573&staydates=2026_09_20_2026_09_21&uguests=1_2_0&supdv=unknown&supuc=US&supul=es",
+   "user": {
+    "name": "giuliagE3481HQ",
+    "link": "https://www.tripadvisor.com.br/ShowUserReviews-g312741-d15667536-r1063550157?m=68573&staydates=2026_09_20_2026_09_21&uguests=1_2_0&supdv=unknown&supuc=US&supul=es"
+   },
+   "source": "Tripadvisor",
+   "rating": 2,
+   "best_rating": 5,
+   "date": "Hace 3 meses",
+   "snippet": "(Traducido por Google) Cortinas sucias y mohosas, cristales de ducha agrietados (un peligro) y marcos de puertas tan húmedos e hinchados que se estaban agrietando.\n(Original)\nCortinas sujas, mofadas, vidro do box trincado (um perigo), madeiras das portas tão úmidas e edemaciadas que estavam rachando."
+  },
+  {
+   "user": {
+    "name": "María Gabriela Esquivel",
+    "link": "https://www.google.com/maps/contrib/112027484796340070718?hl=es"
+   },
+   "source": "Google",
+   "rating": 4,
+   "best_rating": 5,
+   "date": "Hace 3 meses",
+   "snippet": "Es un edificio de renta temporal, bien ubicado. Son deptos pero tipo habitación de hotel. Hay una persona las 24 hs en el recibidor pero poco amables. La habitacion es amplia y la cama buena y grande. Falta mantenimiento y la limpieza fue regular.",
+   "subratings": {
+    "rooms": 4,
+    "service": 4,
+    "location": 5
+   }
+  },
+  {
+   "user": {
+    "name": "Maria Livia Ch",
+    "link": "https://www.google.com/maps/contrib/100420119627262268756?hl=es"
+   },
+   "source": "Google",
+   "rating": 4,
+   "best_rating": 5,
+   "date": "Hace 4 meses",
+   "snippet": "(Traducido por Google) Buena ubicación, cerca del metro y de muchas paradas de autobús. Nos alojamos en la habitación 110, que era espaciosa y limpia. Le vendrían bien algunas mejoras, sobre todo en el baño, pero en general tuvimos una buena estancia. La terraza era muy amplia, pero se oía bastante el tráfico. No tuvimos tiempo de usar el jacuzzi, así que no podemos opinar sobre él.\nAgradecimos que nos dejaran dos fichas para la lavandería en la habitación, que pudimos usar en la planta baja, donde hay lavadoras y secadoras de autoservicio. Allí también encontrarán detergente. Las instrucciones están principalmente en español, pero el modo automático funcionó bien y tuvimos ropa limpia y caliente enseguida.\nTengan en cuenta que no hay recepción propiamente dicha; un guardia de seguridad en la planta baja revisará sus documentos. Desafortunadamente, no hablaba inglés y fue difícil comunicarse con él, pero fue amable y contactó con el hotel cuando no llegó el correo electrónico con el código de acceso. Nunca recibimos una llave electrónica para acceder al edificio, así que siempre dependíamos del personal de seguridad para que nos abrieran la puerta (aunque están allí las 24 horas).\n(Original)\nNice location, close to the metro and many bus stops. We stayed in room 110, and it was spacious and clean. It could use some upgrades, especially in the bathroom, but overall we had a good stay. The terrace was a very good size, but you could hear the traffic quite strongly. We didn't have time to use the hot tub, so cannot review it.\nWe appreciated that they left 2 laundry tokens for us in the room, which we were able to use on the ground floor, where they have self-serve washing machines and dryers. You'll find laundry detergent there as well. Instructions are mostly in Spanish, but using auto mode worked well, and we got warm, clean clothes in no time.\nKeep in mind that there is no proper reception; there will be a security guard on the ground floor who will check your documents. Unfortunately, he didn't speak English, and it was hard to communicate, but he was nice and contacted the hotel when the email with the access code didn't come through. We also never received a building fob, so we always relied on security to open the door for us (but they are there 24hrs).",
+   "subratings": {
+    "rooms": 4,
+    "service": 4,
+    "location": 5
+   },
+   "hotel_highlights": [
+    "Buen precio"
+   ]
+  },
+  {
+   "user": {
+    "name": "Delfina Hernandez Rubio",
+    "link": "https://www.google.com/maps/contrib/109411122933893472014?hl=es"
+   },
+   "source": "Google",
+   "rating": 5,
+   "best_rating": 5,
+   "date": "Hace 4 meses",
+   "subratings": {
+    "rooms": 5,
+    "service": 5,
+    "location": 5
+   }
+  }
+ ],
+ "serpapi_pagination": {
+  "next_page_token": "CjEIARIpCgoAP72GJsh874__EhBXVaObZWCEPrRKaagAAAAAGgn9-0ECYmyHzvgYACIA:10",
+  "next": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=es&next_page_token=CjEIARIpCgoAP72GJsh874__EhBXVaObZWCEPrRKaagAAAAAGgn9-0ECYmyHzvgYACIA%3A10&property_token=ChkI-8aA1PXn1pUoGg0vZy8xMWYxMnp6dDE0EAE&sort_by=2"
+ }
+}
